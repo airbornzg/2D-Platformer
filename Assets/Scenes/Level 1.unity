@@ -127,12 +127,12 @@ PrefabInstance:
     - target: {fileID: 3596655201619531914, guid: 4f95e2a03fa467a41a8db1f3aa876cfc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.589165
+      value: 16.59
       objectReference: {fileID: 0}
     - target: {fileID: 3596655201619531914, guid: 4f95e2a03fa467a41a8db1f3aa876cfc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.6635547
+      value: 1.66
       objectReference: {fileID: 0}
     - target: {fileID: 3596655201619531914, guid: 4f95e2a03fa467a41a8db1f3aa876cfc,
         type: 3}
@@ -207,7 +207,7 @@ PrefabInstance:
     - target: {fileID: 3518335929925839652, guid: 602f584e4a2cbb443a92e9ad7e72bd9a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6482732
+      value: -0.35
       objectReference: {fileID: 0}
     - target: {fileID: 3518335929925839652, guid: 602f584e4a2cbb443a92e9ad7e72bd9a,
         type: 3}
@@ -364,7 +364,7 @@ PrefabInstance:
     - target: {fileID: 4757944851152878951, guid: 70df78b7712f95249a5fc2d0f93c9244,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.7943909
+      value: -1.79
       objectReference: {fileID: 0}
     - target: {fileID: 4757944851152878951, guid: 70df78b7712f95249a5fc2d0f93c9244,
         type: 3}
@@ -544,8 +544,8 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2.5
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Material: {fileID: 6200000, guid: 0c27e752035d95c488afdf5271668873, type: 2}
+  m_Interpolate: 2
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
@@ -563,7 +563,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   jumpHeight: 10
-  chargeSpeed: 10
 --- !u!95 &1156622537
 Animator:
   serializedVersion: 3
@@ -603,7 +602,7 @@ PrefabInstance:
     - target: {fileID: 5950277153852860535, guid: d2aeea95bd8507f4180b2d4a7b94af5c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5115585
+      value: -4.51
       objectReference: {fileID: 0}
     - target: {fileID: 5950277153852860535, guid: d2aeea95bd8507f4180b2d4a7b94af5c,
         type: 3}
@@ -678,7 +677,7 @@ PrefabInstance:
     - target: {fileID: 643792385256854514, guid: 1daff13c6a117dc4588f36b5093120f4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.5115585
+      value: -4.51
       objectReference: {fileID: 0}
     - target: {fileID: 643792385256854514, guid: 1daff13c6a117dc4588f36b5093120f4,
         type: 3}
@@ -763,6 +762,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1156622533}
+  followAhead: 5
+  smoothing: 2
 --- !u!4 &1902286468
 Transform:
   m_ObjectHideFlags: 0
