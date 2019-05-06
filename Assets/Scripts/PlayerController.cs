@@ -7,16 +7,25 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed = 5f;
     [SerializeField] float jumpHeight = 10f;
 
+    public Vector3 respawnPosition;
+
     private Rigidbody2D myRigidbody2d;
     private Animator myAnim;
 
     private bool isGrounded = false;
+
+    public LevelManager theLevelManager;
 
     // Start is called before the first frame update
     void Start()
     {
         myRigidbody2d = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
+
+        theLevelManager = FindObjectOfType<LevelManager>();
+
+        //Initial respawn position without any other checkpoint
+        respawnPosition = transform.position;
     }
 
     // Update is called once per frame
@@ -53,11 +62,25 @@ public class PlayerController : MonoBehaviour
 
     private void PlayerJump()
     {
-        isGrounded = myRigidbody2d.velocity.y == 0f;
+        isGrounded = System.Math.Abs(myRigidbody2d.velocity.y) <= Mathf.Epsilon;
 
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             myRigidbody2d.velocity = new Vector3(myRigidbody2d.velocity.x, jumpHeight, 0f);
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "KillPlane")
+        {
+            //transform.position = respawnPosition;
+            theLevelManager.Respawn();
+        }
+
+        if (other.tag == "Checkpoint")
+        {
+            respawnPosition = other.transform.position;
         }
     }
 }
