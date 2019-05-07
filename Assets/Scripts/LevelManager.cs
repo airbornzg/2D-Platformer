@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelManager : MonoBehaviour
 {
     [SerializeField] float waitToRespawn = 2f;
+    [SerializeField] GameObject deathVFX;
 
     private PlayerController thePlayer;
 
@@ -28,6 +29,8 @@ public class LevelManager : MonoBehaviour
     public IEnumerator RespawnCo()
     {
         thePlayer.gameObject.SetActive(false);
+
+        Instantiate(deathVFX, thePlayer.transform.position, thePlayer.transform.rotation);
 
         yield return new WaitForSeconds(waitToRespawn);
 
