@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerDamageController : MonoBehaviour
 {
-    public LevelManager theLevelManager;
+    [SerializeField] LevelManager theLevelManager;
 
     // Start is called before the first frame update
     void Start()
