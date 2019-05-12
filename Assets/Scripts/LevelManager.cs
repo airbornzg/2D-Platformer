@@ -7,7 +7,10 @@ public class LevelManager : MonoBehaviour
     [SerializeField] float waitToRespawn = 2f;
     [SerializeField] GameObject deathVFX;
 
+    [SerializeField] int coinCount;
+
     private PlayerController thePlayer;
+
 
     // Start is called before the first frame update
     void Start()
@@ -36,5 +39,10 @@ public class LevelManager : MonoBehaviour
 
         thePlayer.transform.position = thePlayer.respawnPosition;
         thePlayer.gameObject.SetActive(true);
+    }
+
+    public void AddCoins(int coinsToAdd)
+    {
+        coinCount += coinsToAdd;
     }
 }
