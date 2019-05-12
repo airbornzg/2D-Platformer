@@ -6,6 +6,8 @@ public class PlayerDamageController : MonoBehaviour
 {
     [SerializeField] LevelManager theLevelManager;
 
+    [SerializeField] int damageToGive;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,8 +23,10 @@ public class PlayerDamageController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
-        {          
-            theLevelManager.Respawn();
+        {
+            //theLevelManager.Respawn();
+
+            theLevelManager.PlayerDamage(damageToGive);
         }
     }
 }
