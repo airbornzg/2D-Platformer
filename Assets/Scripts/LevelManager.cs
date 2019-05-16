@@ -29,13 +29,14 @@ public class LevelManager : MonoBehaviour
     
     //Reference
     private PlayerController thePlayer;
-
+    private MonsterControl theMonster;
     
 
     // Start is called before the first frame update
     void Start()
     {
         thePlayer = FindObjectOfType<PlayerController>();
+        theMonster = FindObjectOfType<MonsterControl>();
 
         coinText.text = "Coins: " + coinCount.ToString();
 
@@ -61,6 +62,7 @@ public class LevelManager : MonoBehaviour
     public IEnumerator RespawnCoroutine()
     {
         thePlayer.gameObject.SetActive(false);
+        theMonster.gameObject.SetActive(false);
         StartDeathVFX();
 
         yield return new WaitForSeconds(waitToRespawn);
@@ -85,6 +87,9 @@ public class LevelManager : MonoBehaviour
     {
         thePlayer.transform.position = thePlayer.respawnPosition;
         thePlayer.gameObject.SetActive(true);
+
+        theMonster.transform.position = new Vector2(thePlayer.transform.position.x - 10, thePlayer.transform.position.y);
+        theMonster.gameObject.SetActive(true);
     }
 
     public void AddCoins(int coinsToAdd)
