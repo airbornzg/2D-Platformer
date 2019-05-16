@@ -5,8 +5,8 @@ using UnityEngine;
 public class FollowCamera : MonoBehaviour
 {
     [SerializeField] Transform target;
-    [SerializeField] float followAhead = 5f;
-    [SerializeField] float smoothing = 2f;
+    [SerializeField] float followAhead;
+    [SerializeField] float smoothing;
 
     private Vector3 targetPosition;
 

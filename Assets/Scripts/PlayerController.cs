@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float moveSpeed = 5f;
-    [SerializeField] float jumpHeight = 10f;
+    [SerializeField] float moveSpeed;
+    [SerializeField] float jumpHeight;
 
     public Vector3 respawnPosition;
 
@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
 
     public LevelManager theLevelManager;
 
+    private int killPlayerDamage;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,9 @@ public class PlayerController : MonoBehaviour
         myAnim = GetComponent<Animator>();
 
         theLevelManager = FindObjectOfType<LevelManager>();
+
+        //Define the instant kill damage
+        killPlayerDamage = theLevelManager.maxHealth;
 
         //Initial respawn position without any other checkpoint
         respawnPosition = transform.position;
@@ -74,7 +79,7 @@ public class PlayerController : MonoBehaviour
     {
         if(other.tag == "KillPlane")
         {
-            //transform.position = respawnPosition;
+            theLevelManager.PlayerDamage(killPlayerDamage);
             theLevelManager.Respawn();
         }
 

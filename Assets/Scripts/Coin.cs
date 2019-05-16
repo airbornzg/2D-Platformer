@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerDamageController : MonoBehaviour
+public class Coin : MonoBehaviour
 {
-    [SerializeField] LevelManager theLevelManager;
+    [SerializeField] int coinValue;
 
-    [SerializeField] int damageToGive;
+    private LevelManager theLevelManager;
+
 
     // Start is called before the first frame update
     void Start()
@@ -24,9 +25,9 @@ public class PlayerDamageController : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            //theLevelManager.Respawn();
+            theLevelManager.AddCoins(coinValue);
 
-            theLevelManager.PlayerDamage(damageToGive);
+            Destroy(gameObject);
         }
     }
 }
