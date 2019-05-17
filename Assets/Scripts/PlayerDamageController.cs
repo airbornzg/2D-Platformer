@@ -24,8 +24,6 @@ public class PlayerDamageController : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            //theLevelManager.Respawn();
-
             theLevelManager.PlayerDamage(damageToGive);
         }
     }

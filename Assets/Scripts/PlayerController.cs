@@ -9,6 +9,15 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] GameObject stunBox;
 
+    //Pushed back force when damaged
+    [SerializeField] float pushedBackForce;
+    [SerializeField] float pushedbackTime;
+    [SerializeField] float pushedBackTimeCounter;
+
+    //Invicible after damage
+    [SerializeField] float invincibleTime;
+    private float invincibleCounter;
+
     //Level Management
     public LevelManager theLevelManager;
 
@@ -41,8 +50,35 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerMovement();
-        PlayerJump();
+        if (pushedBackTimeCounter <= 0)
+        {
+            PlayerMovement();
+            PlayerJump();
+            
+            if (invincibleCounter > 0)
+            {
+                invincibleCounter -= Time.deltaTime;
+            }
+
+            if(invincibleCounter <= 0)
+            {
+                theLevelManager.isInvincible = false;
+            }
+        }
+
+        if (pushedBackTimeCounter > 0)
+        {
+            pushedBackTimeCounter -= Time.deltaTime;
+            if (transform.localScale.x > 0)
+            {
+                myRigidbody2d.velocity = new Vector3(-pushedBackForce, pushedBackForce * 0.5f, 0f);
+            }
+            else
+            {
+                myRigidbody2d.velocity = new Vector3(pushedBackForce, pushedBackForce * 0.5f, 0f);
+            }
+        }
+
         PlayerAnimationControl();
 
         if (myRigidbody2d.velocity.y < 0)
@@ -117,5 +153,12 @@ public class PlayerController : MonoBehaviour
         {
             transform.parent = null;
         }
+    }
+
+    public void PushedBack()
+    {
+        pushedBackTimeCounter = pushedbackTime;
+        invincibleCounter = invincibleTime;
+        theLevelManager.isInvincible = true;
     }
 }

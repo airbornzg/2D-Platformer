@@ -29,6 +29,9 @@ public class LevelManager : MonoBehaviour
     [SerializeField] int healthCount;
     public int maxHealth;
     
+    //Invincibility
+    public bool isInvincible;
+    
     //Reference
     private PlayerController thePlayer;
     private MonsterControl theMonster;
@@ -119,8 +122,15 @@ public class LevelManager : MonoBehaviour
 
     public void PlayerDamage(int damageToTake)
     {
-        healthCount -= damageToTake;
-        UpdateHealthMeter();
+        if (!isInvincible)
+        {
+            healthCount -= damageToTake;
+            UpdateHealthMeter();
+            if (healthCount > 0)
+            {
+                thePlayer.PushedBack();
+            }
+        }
     }
 
     public void UpdateHealthMeter()

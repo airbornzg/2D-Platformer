@@ -219,6 +219,9 @@ MonoBehaviour:
   moveSpeed: 5
   jumpHeight: 10
   stunBox: {fileID: 1725294703153524006}
+  pushedBackForce: 5
+  pushedBackLength: 0.5
+  pushedBackTimeCounter: 0
   theLevelManager: {fileID: 0}
   respawnPosition: {x: 0, y: 0, z: 0}
 --- !u!95 &1725294704247609864
