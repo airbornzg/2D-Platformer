@@ -17,6 +17,9 @@ public class LevelManager : MonoBehaviour
     [SerializeField] int scoreCount;
     [SerializeField] Text scoreText;
 
+    [SerializeField] int scoreExtraLifeCount;
+    [SerializeField] int ScoreToRedeem;
+
     //Health Meter
     [SerializeField] Image heart1;
     [SerializeField] Image heart2;
@@ -70,6 +73,13 @@ public class LevelManager : MonoBehaviour
             Respawn();
             respawning = true;
         }
+
+        if (scoreExtraLifeCount >= ScoreToRedeem)
+        {
+            currentLifeNumber += 1;
+            lifeText.text = "Life left: " + currentLifeNumber;
+            scoreExtraLifeCount -= ScoreToRedeem;
+        }
     }
 
     public void Respawn()
@@ -118,6 +128,7 @@ public class LevelManager : MonoBehaviour
     {
         scoreCount = 0;
         scoreText.text = "Score: " + scoreCount.ToString();
+        scoreExtraLifeCount = 0;
     }
 
     private void StartDeathVFX()
@@ -144,6 +155,8 @@ public class LevelManager : MonoBehaviour
     public void AddCoins(int scoreToAdd)
     {
         scoreCount += scoreToAdd;
+        scoreExtraLifeCount += scoreToAdd;
+
         scoreText.text = "Score: " + scoreCount.ToString();
     }
 
@@ -211,5 +224,17 @@ public class LevelManager : MonoBehaviour
     {
         currentLifeNumber += addLife;
         lifeText.text = "Life left: " + currentLifeNumber;
+    }
+
+    public void AddExtraHealth(int addHealth)
+    {
+        healthCount += addHealth;
+
+        if (healthCount > maxHealth)
+        {
+            healthCount = maxHealth;
+        }
+
+        UpdateHealthMeter();
     }
 }

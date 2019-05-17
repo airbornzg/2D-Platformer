@@ -61,3 +61,4 @@ MonoBehaviour:
   currentLifeNumber: 0
   startingLifeNumber: 3
   lifeText: {fileID: 0}
+  gameOverWindow: {fileID: 0}
