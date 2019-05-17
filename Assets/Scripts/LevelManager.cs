@@ -12,8 +12,8 @@ public class LevelManager : MonoBehaviour
     private bool respawning = false;
 
     //Coins
-    [SerializeField] int coinCount;
-    [SerializeField] Text coinText;
+    [SerializeField] int scoreCount;
+    [SerializeField] Text scoreText;
 
     //Health Meter
     [SerializeField] Image heart1;
@@ -38,7 +38,7 @@ public class LevelManager : MonoBehaviour
         thePlayer = FindObjectOfType<PlayerController>();
         theMonster = FindObjectOfType<MonsterControl>();
 
-        coinText.text = "Coins: " + coinCount.ToString();
+        scoreText.text = "Score: " + scoreCount.ToString();
 
         healthCount = maxHealth;
     }
@@ -94,8 +94,8 @@ public class LevelManager : MonoBehaviour
 
     public void AddCoins(int coinsToAdd)
     {
-        coinCount += coinsToAdd;
-        coinText.text = "Coins: " + coinCount.ToString();
+        scoreCount += coinsToAdd;
+        scoreText.text = "Score: " + scoreCount.ToString();
     }
 
     public void PlayerDamage(int damageToTake)

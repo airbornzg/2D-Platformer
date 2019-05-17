@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coin : MonoBehaviour
+public class Score : MonoBehaviour
 {
-    [SerializeField] int coinValue;
+    [SerializeField] int scoreValue;
 
     private LevelManager theLevelManager;
 
@@ -25,7 +25,7 @@ public class Coin : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            theLevelManager.AddCoins(coinValue);
+            theLevelManager.AddCoins(scoreValue);
 
             Destroy(gameObject);
         }
