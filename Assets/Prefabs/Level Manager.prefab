@@ -46,3 +46,18 @@ MonoBehaviour:
   waitToRespawn: 2
   deathVFX: {fileID: 8680046005961105228, guid: 2bb337bcc6955b747b3704add9127ebd,
     type: 3}
+  gameObjectToReset: []
+  scoreCount: 0
+  scoreText: {fileID: 0}
+  heart1: {fileID: 0}
+  heart2: {fileID: 0}
+  heart3: {fileID: 0}
+  heartFull: {fileID: 21300714, guid: b3aec35f0c094304a80c55e8ef668c89, type: 3}
+  heartHalf: {fileID: 21300716, guid: b3aec35f0c094304a80c55e8ef668c89, type: 3}
+  heartEmpty: {fileID: 21300718, guid: b3aec35f0c094304a80c55e8ef668c89, type: 3}
+  healthCount: 0
+  maxHealth: 6
+  isInvincible: 0
+  currentLifeNumber: 0
+  startingLifeNumber: 3
+  lifeText: {fileID: 0}

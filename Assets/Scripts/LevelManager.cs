@@ -31,7 +31,13 @@ public class LevelManager : MonoBehaviour
     
     //Invincibility
     public bool isInvincible;
-    
+
+
+    //Life
+    [SerializeField] int currentLifeNumber;
+    [SerializeField] int startingLifeNumber;
+    [SerializeField] Text lifeText;
+
     //Reference
     private PlayerController thePlayer;
     private MonsterControl theMonster;
@@ -48,6 +54,9 @@ public class LevelManager : MonoBehaviour
         healthCount = maxHealth;
 
         gameObjectToReset = FindObjectsOfType<GameResetOnRespawn>();
+
+        currentLifeNumber = startingLifeNumber;
+        lifeText.text = "Life left: " + currentLifeNumber;
     }
 
     // Update is called once per frame
@@ -62,7 +71,21 @@ public class LevelManager : MonoBehaviour
 
     public void Respawn()
     {
-        StartCoroutine("RespawnCoroutine");
+        if (!respawning)
+        {
+            respawning = true;
+            currentLifeNumber -= 1;
+            lifeText.text = "Life left: " + currentLifeNumber;
+
+            if (currentLifeNumber > 0)
+            {
+                StartCoroutine("RespawnCoroutine");
+            }
+            else
+            {
+                thePlayer.gameObject.SetActive(false);
+            }
+        }
     }
 
     //Delay the respawning process for few seconds
@@ -178,5 +201,11 @@ public class LevelManager : MonoBehaviour
                 heart3.sprite = heartEmpty;
                 return;
         }
+    }
+
+    public void AddExtraLife (int addLife)
+    {
+        currentLifeNumber += addLife;
+        lifeText.text = "Life left: " + currentLifeNumber;
     }
 }
