@@ -38,6 +38,9 @@ public class LevelManager : MonoBehaviour
     [SerializeField] int startingLifeNumber;
     [SerializeField] Text lifeText;
 
+    //Game Over
+    [SerializeField] GameObject gameOverWindow;
+
     //Reference
     private PlayerController thePlayer;
     private MonsterControl theMonster;
@@ -84,6 +87,7 @@ public class LevelManager : MonoBehaviour
             else
             {
                 thePlayer.gameObject.SetActive(false);
+                gameOverWindow.SetActive(true);
             }
         }
     }
