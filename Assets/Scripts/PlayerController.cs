@@ -91,7 +91,7 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "KillPlane")
+        if(other.tag == "Death Block")
         {
             theLevelManager.PlayerDamage(killPlayerDamage);
             theLevelManager.Respawn();

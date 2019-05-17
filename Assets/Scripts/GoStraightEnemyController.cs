@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpiderController : MonoBehaviour
+public class GoStraightEnemyController : MonoBehaviour
 {
     [SerializeField] float moveSpeed;
 
@@ -27,6 +27,11 @@ public class SpiderController : MonoBehaviour
     private void OnBecameVisible()
     {
         canMove = true;
+    }
+
+    private void OnEnable()
+    {
+        canMove = false;
     }
 
     private void OnTriggerEnter2D(Collider2D other)

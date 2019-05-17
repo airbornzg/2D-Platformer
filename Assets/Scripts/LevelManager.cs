@@ -72,8 +72,7 @@ public class LevelManager : MonoBehaviour
         yield return new WaitForSeconds(waitToRespawn);
 
         //Update the socre when player die
-        scoreCount = 0;
-        scoreText.text = "Score: " + scoreCount.ToString();
+        ResetScore();
 
         UpdateRespawnHealth();
         UpdateRespawnPos();
@@ -83,6 +82,12 @@ public class LevelManager : MonoBehaviour
             gameObjectToReset[i].gameObject.SetActive(true);
             gameObjectToReset[i].ResetObject();
         }
+    }
+
+    private void ResetScore()
+    {
+        scoreCount = 0;
+        scoreText.text = "Score: " + scoreCount.ToString();
     }
 
     private void StartDeathVFX()
@@ -106,9 +111,9 @@ public class LevelManager : MonoBehaviour
         theMonster.gameObject.SetActive(true);
     }
 
-    public void AddCoins(int coinsToAdd)
+    public void AddCoins(int scoreToAdd)
     {
-        scoreCount += coinsToAdd;
+        scoreCount += scoreToAdd;
         scoreText.text = "Score: " + scoreCount.ToString();
     }
 

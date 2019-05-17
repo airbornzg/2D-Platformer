@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OozeController : MonoBehaviour
+public class BackAndForthController : MonoBehaviour
 {
     [SerializeField] Transform leftPoint;
     [SerializeField] Transform rightPoint;
@@ -20,6 +20,25 @@ public class OozeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        MovingBoundary();
+
+        MovingSpeed();
+    }
+
+    private void MovingSpeed()
+    {
+        if (movingRight)
+        {
+            myRigidbody2D.velocity = new Vector3(moveSpeed, myRigidbody2D.velocity.y, 0f);
+        }
+        else
+        {
+            myRigidbody2D.velocity = new Vector3(-moveSpeed, myRigidbody2D.velocity.y, 0f);
+        }
+    }
+
+    private void MovingBoundary()
+    {
         if (movingRight && transform.position.x > rightPoint.position.x)
         {
             movingRight = false;
@@ -28,15 +47,6 @@ public class OozeController : MonoBehaviour
         if (!movingRight && transform.position.x < leftPoint.position.x)
         {
             movingRight = true;
-        }
-
-        if (movingRight)
-        {
-            myRigidbody2D.velocity = new Vector3(moveSpeed, myRigidbody2D.velocity.y, 0f);
-        }
-        else
-        {
-            myRigidbody2D.velocity = new Vector3(-moveSpeed, myRigidbody2D.velocity.y, 0f);
         }
     }
 }
