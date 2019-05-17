@@ -7,14 +7,19 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float moveSpeed;
     [SerializeField] float jumpHeight;
 
+    [SerializeField] GameObject stunBox;
+
+    //Level Management
+    public LevelManager theLevelManager;
+
+    //Respawn Position
     public Vector3 respawnPosition;
 
+    //Player Animation 
     private Rigidbody2D myRigidbody2d;
     private Animator myAnim;
 
     private bool isGrounded = false;
-
-    public LevelManager theLevelManager;
 
     private int killPlayerDamage;
 
@@ -39,6 +44,15 @@ public class PlayerController : MonoBehaviour
         PlayerMovement();
         PlayerJump();
         PlayerAnimationControl();
+
+        if (myRigidbody2d.velocity.y < 0)
+        {
+            stunBox.SetActive(true);
+        }
+        else
+        {
+            stunBox.SetActive(false);
+        }
     }
 
     private void PlayerAnimationControl()

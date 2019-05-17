@@ -27,7 +27,7 @@ public class Score : MonoBehaviour
         {
             theLevelManager.AddCoins(scoreValue);
 
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

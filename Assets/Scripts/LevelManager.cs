@@ -11,7 +11,9 @@ public class LevelManager : MonoBehaviour
 
     private bool respawning = false;
 
-    //Coins
+    [SerializeField] GameResetOnRespawn[] gameObjectToReset; 
+
+    //Score
     [SerializeField] int scoreCount;
     [SerializeField] Text scoreText;
 
@@ -41,6 +43,8 @@ public class LevelManager : MonoBehaviour
         scoreText.text = "Score: " + scoreCount.ToString();
 
         healthCount = maxHealth;
+
+        gameObjectToReset = FindObjectsOfType<GameResetOnRespawn>();
     }
 
     // Update is called once per frame
@@ -67,8 +71,18 @@ public class LevelManager : MonoBehaviour
 
         yield return new WaitForSeconds(waitToRespawn);
 
+        //Update the socre when player die
+        scoreCount = 0;
+        scoreText.text = "Score: " + scoreCount.ToString();
+
         UpdateRespawnHealth();
         UpdateRespawnPos();
+
+        for (int i = 0; i < gameObjectToReset.Length; i++)
+        {
+            gameObjectToReset[i].gameObject.SetActive(true);
+            gameObjectToReset[i].ResetObject();
+        }
     }
 
     private void StartDeathVFX()
