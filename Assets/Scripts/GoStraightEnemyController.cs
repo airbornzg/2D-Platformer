@@ -36,7 +36,7 @@ public class GoStraightEnemyController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "KillPlane")
+        if (other.tag == "Death Block")
         {
             gameObject.SetActive(false);
         }
