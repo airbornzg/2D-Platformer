@@ -146,6 +146,9 @@ public class LevelManager : MonoBehaviour
     private void UpdateRespawnPos()
     {
         thePlayer.transform.position = thePlayer.respawnPosition;
+
+        thePlayer.transform.localScale = new Vector3(1f, 1f, 1f);
+
         thePlayer.gameObject.SetActive(true);
 
         theMonster.transform.position = new Vector2(thePlayer.transform.position.x - 10, thePlayer.transform.position.y);
