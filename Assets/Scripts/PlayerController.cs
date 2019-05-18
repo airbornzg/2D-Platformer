@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float moveSpeed;
+    public float moveSpeed;
     [SerializeField] float jumpHeight;
 
     [SerializeField] GameObject stunBox;
@@ -25,8 +25,10 @@ public class PlayerController : MonoBehaviour
     public Vector3 respawnPosition;
 
     //Player Animation 
-    private Rigidbody2D myRigidbody2d;
+    public Rigidbody2D myRigidbody2d;
     private Animator myAnim;
+
+    public bool canMove;
 
     private bool isGrounded = false;
 
@@ -45,12 +47,14 @@ public class PlayerController : MonoBehaviour
 
         //Initial respawn position without any other checkpoint
         respawnPosition = transform.position;
+
+        canMove = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (pushedBackTimeCounter <= 0)
+        if (pushedBackTimeCounter <= 0 && canMove)
         {
             PlayerMovement();
             PlayerJump();

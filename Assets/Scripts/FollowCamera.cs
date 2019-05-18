@@ -8,22 +8,32 @@ public class FollowCamera : MonoBehaviour
     [SerializeField] float followAhead;
     [SerializeField] float smoothing;
 
+    public bool followPlayer;
+
     private Vector3 targetPosition;
 
+    void Start()
+    {
+        followPlayer = true;
+    }
 
     void LateUpdate()
     {
-        targetPosition = new Vector3(target.position.x, transform.position.y, transform.position.z);
 
-        if(target.transform.localScale.x > 0f)
+        if(followPlayer)
         {
-            targetPosition = new Vector3(targetPosition.x + followAhead, targetPosition.y, targetPosition.z);
-        }
-        else
-        {
-            targetPosition = new Vector3(targetPosition.x - followAhead, targetPosition.y, targetPosition.z);
-        }
+            targetPosition = new Vector3(target.position.x, transform.position.y, transform.position.z);
 
-        transform.position = Vector3.Lerp(transform.position, targetPosition, smoothing * Time.deltaTime);
+            if (target.transform.localScale.x > 0f)
+            {
+                targetPosition = new Vector3(targetPosition.x + followAhead, targetPosition.y, targetPosition.z);
+            }
+            else
+            {
+                targetPosition = new Vector3(targetPosition.x - followAhead, targetPosition.y, targetPosition.z);
+            }
+
+            transform.position = Vector3.Lerp(transform.position, targetPosition, smoothing * Time.deltaTime);
+        }
     }
 }

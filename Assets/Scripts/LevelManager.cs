@@ -14,7 +14,7 @@ public class LevelManager : MonoBehaviour
     [SerializeField] GameResetOnRespawn[] gameObjectToReset; 
 
     //Score
-    [SerializeField] int scoreCount;
+    public int scoreCount;
     [SerializeField] Text scoreText;
 
     [SerializeField] int scoreExtraLifeCount;
@@ -37,7 +37,7 @@ public class LevelManager : MonoBehaviour
 
 
     //Life
-    [SerializeField] int currentLifeNumber;
+    public int currentLifeNumber;
     [SerializeField] int startingLifeNumber;
     [SerializeField] Text lifeText;
 
@@ -54,14 +54,13 @@ public class LevelManager : MonoBehaviour
     {
         thePlayer = FindObjectOfType<PlayerController>();
         theMonster = FindObjectOfType<MonsterControl>();
-
-        scoreText.text = "Score: " + scoreCount.ToString();
+        gameObjectToReset = FindObjectsOfType<GameResetOnRespawn>();
 
         healthCount = maxHealth;
 
-        gameObjectToReset = FindObjectsOfType<GameResetOnRespawn>();
+        PreviousLevelParameterCheck();
 
-        currentLifeNumber = startingLifeNumber;
+        scoreText.text = "Score: " + scoreCount.ToString();
         lifeText.text = "Life left: " + currentLifeNumber;
     }
 
@@ -79,6 +78,23 @@ public class LevelManager : MonoBehaviour
             currentLifeNumber += 1;
             lifeText.text = "Life left: " + currentLifeNumber;
             scoreExtraLifeCount -= ScoreToRedeem;
+        }
+    }
+
+    private void PreviousLevelParameterCheck()
+    {
+        if (PlayerPrefs.HasKey("ScoreCount"))
+        {
+            scoreCount = PlayerPrefs.GetInt("ScoreCount");
+        }
+
+        if (PlayerPrefs.HasKey("LifeCount"))
+        {
+            currentLifeNumber = PlayerPrefs.GetInt("LifeCount");
+        }
+        else
+        {
+            currentLifeNumber = startingLifeNumber;
         }
     }
 
