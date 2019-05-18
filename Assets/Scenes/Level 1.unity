@@ -1974,7 +1974,7 @@ PrefabInstance:
     - target: {fileID: 1065033533524006131, guid: f9ff765c7839e224fa0dd263ddf1061f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1065033533524006131, guid: f9ff765c7839e224fa0dd263ddf1061f,
         type: 3}
@@ -2442,7 +2442,7 @@ PrefabInstance:
     - target: {fileID: 1065033533524006131, guid: f9ff765c7839e224fa0dd263ddf1061f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1065033533524006131, guid: f9ff765c7839e224fa0dd263ddf1061f,
         type: 3}
@@ -3804,6 +3804,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3997954332564925119, guid: 28f8c43117f284035a306a000b99f546,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7169812
+      objectReference: {fileID: 0}
+    - target: {fileID: 3997954332564925119, guid: 28f8c43117f284035a306a000b99f546,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.26041296
+      objectReference: {fileID: 0}
+    - target: {fileID: 3997954332564925119, guid: 28f8c43117f284035a306a000b99f546,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.26041296
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5142626
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
+      propertyPath: m_Color.b
+      value: 0.23616058
+      objectReference: {fileID: 0}
     - target: {fileID: 3997954332743706949, guid: 28f8c43117f284035a306a000b99f546,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3908,6 +3935,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3997954332743706947, guid: 28f8c43117f284035a306a000b99f546,
+        type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 800
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28f8c43117f284035a306a000b99f546, type: 3}
