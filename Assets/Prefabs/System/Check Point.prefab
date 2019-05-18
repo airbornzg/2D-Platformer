@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 254372647
   m_SortingLayer: -1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300602, guid: b3aec35f0c094304a80c55e8ef668c89, type: 3}
+  m_Sprite: {fileID: 21300006, guid: 784a95fec176164429bf043e7be4472a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,8 +93,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75be15eb2e86a400e9d34ce73f03817d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flagClosed: {fileID: 21300602, guid: b3aec35f0c094304a80c55e8ef668c89, type: 3}
-  flagOpen: {fileID: 21300594, guid: b3aec35f0c094304a80c55e8ef668c89, type: 3}
+  flagClosed: {fileID: 21300006, guid: 784a95fec176164429bf043e7be4472a, type: 3}
+  flagOpen: {fileID: 21300000, guid: 784a95fec176164429bf043e7be4472a, type: 3}
   checkpointActive: 0
 --- !u!58 &8416714103723728103
 CircleCollider2D:
