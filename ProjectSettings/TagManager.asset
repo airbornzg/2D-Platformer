@@ -8,6 +8,8 @@ TagManager:
   - MovingPlatform
   - Enemy
   - Death Block
+  - KillPlane
+  - Monster
   layers:
   - Default
   - TransparentFX

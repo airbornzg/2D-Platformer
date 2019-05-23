@@ -11,7 +11,7 @@ public class MonsterControl : MonoBehaviour
     private Vector2 targetPosition;
     private float distance = 5.0f;
     public float speed = 5.0f;
-    public LevelManager theLevelManager;
+    private LevelManager theLevelManager;
 
     // Start is called before the first frame update
     void Start()
