@@ -27,7 +27,7 @@ public class MonsterControl : MonoBehaviour
     void Update()
     {
 
-        if (Vector2.Distance(player.transform.position, transform.position) < 0.1)
+        if (Vector2.Distance(player.transform.position, transform.position) < 1)
         {
             theLevelManager.PlayerDamage(theLevelManager.maxHealth);
             theLevelManager.Respawn();
