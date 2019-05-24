@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725294703153524006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.269, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1725294704247609860}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 1725294704247609864}
   - component: {fileID: 1161525117}
   m_Layer: 9
-  m_Name: Player
+  m_Name: Player level 2
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -103,7 +103,7 @@ Transform:
   m_GameObject: {fileID: 1725294704247609858}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 44.22, y: -2.3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.665154, y: 1.665154, z: 1.665154}
   m_Children:
   - {fileID: 1725294703153524009}
   m_Father: {fileID: 0}
@@ -146,9 +146,9 @@ SpriteRenderer:
   m_SortingLayerID: -246119523
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1156e7f4938bca44b9c43af7cd3b0df7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 312d788d67a7b4418b729cce2270140b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -199,6 +199,8 @@ MonoBehaviour:
   invincibleTime: 1.5
   theLevelManager: {fileID: 0}
   respawnPosition: {x: 0, y: 0, z: 0}
+  myRigidbody2d: {fileID: 0}
+  canMove: 0
 --- !u!95 &1725294704247609864
 Animator:
   serializedVersion: 3
@@ -209,7 +211,7 @@ Animator:
   m_GameObject: {fileID: 1725294704247609858}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f2a70e275cb7ae94e9635ac47de8704b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2a201ddb9f62d4d9ea335e12cb0d1670, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -231,6 +233,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.54, y: 1.2}
+  m_Offset: {x: 0, y: 0.01606993}
+  m_Size: {x: 0.54, y: 0.6616556}
   m_Direction: 0
