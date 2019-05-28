@@ -47,6 +47,7 @@ public class LevelManager : MonoBehaviour
     //Reference
     private PlayerController thePlayer;
     private MonsterControl theMonster;
+    private player5Controller thePlayer5;
 
     //Monster
     private GameObject monster;
@@ -57,6 +58,7 @@ public class LevelManager : MonoBehaviour
     {
         thePlayer = FindObjectOfType<PlayerController>();
         theMonster = FindObjectOfType<MonsterControl>();
+        thePlayer5 = FindObjectOfType<player5Controller>();
         gameObjectToReset = FindObjectsOfType<GameResetOnRespawn>();
 
         healthCount = maxHealth;
@@ -121,6 +123,28 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    //repeated function for scene 5 
+    // as the player is fixed
+    public void Respawn5()
+    {
+        if (!respawning)
+        {
+            respawning = true;
+            currentLifeNumber -= 1;
+            lifeText.text = "Life left: " + currentLifeNumber;
+
+            if (currentLifeNumber > 0)
+            {
+                StartCoroutine("RespawnCoroutine5");
+            }
+            else
+            {
+                thePlayer5.gameObject.SetActive(false);
+                gameOverWindow.SetActive(true);
+            }
+        }
+    }
+
     //Delay the respawning process for few seconds
     public IEnumerator RespawnCoroutine()
     {
@@ -146,6 +170,28 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    //re-use the courtines with different player
+    //in this case player 5 was used
+    public IEnumerator RespawnCoroutine5()
+    {
+        thePlayer5.gameObject.SetActive(false);
+        StartDeathVFX5();
+
+        yield return new WaitForSeconds(waitToRespawn);
+
+        //Update the socre when player die
+        ResetScore();
+
+        UpdateRespawnHealth();
+        UpdateRespawnPos5();
+
+        for (int i = 0; i < gameObjectToReset.Length; i++)
+        {
+            gameObjectToReset[i].gameObject.SetActive(true);
+            gameObjectToReset[i].ResetObject();
+        }
+    }
+
     private void ResetScore()
     {
         scoreCount = 0;
@@ -156,6 +202,12 @@ public class LevelManager : MonoBehaviour
     private void StartDeathVFX()
     {
         Instantiate(deathVFX, thePlayer.transform.position, thePlayer.transform.rotation);
+    }
+
+    //change the position of instantiate death to player5
+    private void StartDeathVFX5()
+    {
+        Instantiate(deathVFX, thePlayer5.transform.position, thePlayer5.transform.rotation);
     }
 
     private void UpdateRespawnHealth()
@@ -180,6 +232,18 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    //re-use and change the player to player 5
+    private void UpdateRespawnPos5()
+    {
+        thePlayer5.transform.position = thePlayer5.respawnPosition;
+
+
+        thePlayer5.transform.localScale = new Vector3(1f, 1f, 1f);
+
+        thePlayer5.gameObject.SetActive(true);
+
+    }
+
     public void AddCoins(int scoreToAdd)
     {
         scoreCount += scoreToAdd;
@@ -198,6 +262,16 @@ public class LevelManager : MonoBehaviour
             {
                 thePlayer.PushedBack();
             }
+        }
+    }
+
+    //re-use and change the player to player 5
+    public void PlayerDamage5(int damageToTake)
+    {
+        if (!isInvincible)
+        {
+            healthCount -= damageToTake;
+            UpdateHealthMeter();
         }
     }
 
