@@ -11,7 +11,7 @@ public class MonsterControl : MonoBehaviour
     private Vector2 targetPosition;
     private float distance = 5.0f;
     public float speed = 5.0f;
-    public LevelManager theLevelManager;
+    private LevelManager theLevelManager;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +27,7 @@ public class MonsterControl : MonoBehaviour
     void Update()
     {
 
-        if (Vector2.Distance(player.transform.position, transform.position) < 0.1)
+        if (Vector2.Distance(player.transform.position, transform.position) < 1)
         {
             theLevelManager.PlayerDamage(theLevelManager.maxHealth);
             theLevelManager.Respawn();

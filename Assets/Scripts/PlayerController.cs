@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
     //Player Animation 
     public Rigidbody2D myRigidbody2d;
     private Animator myAnim;
+    private SpriteRenderer spriteRenderer;
 
     public bool canMove;
 
@@ -39,6 +40,7 @@ public class PlayerController : MonoBehaviour
     {
         myRigidbody2d = GetComponent<Rigidbody2D>();
         myAnim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
 
         theLevelManager = FindObjectOfType<LevelManager>();
 
@@ -106,12 +108,14 @@ public class PlayerController : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") > 0f)
         {
             myRigidbody2d.velocity = new Vector3(moveSpeed, myRigidbody2d.velocity.y, 0f);
-            transform.localScale = new Vector3(1f, 1f, 1f);
+            spriteRenderer.flipX = false;
+            //transform.localScale = new Vector3(1f, 1f, 1f);
         }
         else if (Input.GetAxisRaw("Horizontal") < 0f)
         {
             myRigidbody2d.velocity = new Vector3(-moveSpeed, myRigidbody2d.velocity.y, 0f);
-            transform.localScale = new Vector3(-1f, 1f, 1f);
+            spriteRenderer.flipX = true;
+            //transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         else
         {
