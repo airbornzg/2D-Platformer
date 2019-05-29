@@ -1,0 +1,782 @@
+fileFormatVersion: 2
+guid: 6be1e93f81a6b964dbceb6e3cd57ed5c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Nintendo Switch - Fire Emblem Warriors - Monster_0
+    21300002: Nintendo Switch - Fire Emblem Warriors - Monster_1
+    21300004: Nintendo Switch - Fire Emblem Warriors - Monster_2
+    21300006: Nintendo Switch - Fire Emblem Warriors - Monster_3
+    21300008: Nintendo Switch - Fire Emblem Warriors - Monster_4
+    21300010: Nintendo Switch - Fire Emblem Warriors - Monster_5
+    21300012: Nintendo Switch - Fire Emblem Warriors - Monster_6
+    21300014: Nintendo Switch - Fire Emblem Warriors - Monster_7
+    21300016: Nintendo Switch - Fire Emblem Warriors - Monster_8
+    21300018: Nintendo Switch - Fire Emblem Warriors - Monster_9
+    21300020: Nintendo Switch - Fire Emblem Warriors - Monster_10
+    21300022: Nintendo Switch - Fire Emblem Warriors - Monster_11
+    21300024: Nintendo Switch - Fire Emblem Warriors - Monster_12
+    21300026: Nintendo Switch - Fire Emblem Warriors - Monster_13
+    21300028: Nintendo Switch - Fire Emblem Warriors - Monster_14
+    21300030: Nintendo Switch - Fire Emblem Warriors - Monster_15
+    21300032: Nintendo Switch - Fire Emblem Warriors - Monster_16
+    21300034: Nintendo Switch - Fire Emblem Warriors - Monster_17
+    21300036: Nintendo Switch - Fire Emblem Warriors - Monster_18
+    21300038: Nintendo Switch - Fire Emblem Warriors - Monster_19
+    21300040: Nintendo Switch - Fire Emblem Warriors - Monster_20
+    21300042: Nintendo Switch - Fire Emblem Warriors - Monster_21
+    21300044: Nintendo Switch - Fire Emblem Warriors - Monster_22
+    21300046: Nintendo Switch - Fire Emblem Warriors - Monster_23
+    21300048: Nintendo Switch - Fire Emblem Warriors - Monster_24
+    21300050: Nintendo Switch - Fire Emblem Warriors - Monster_25
+    21300052: Nintendo Switch - Fire Emblem Warriors - Monster_26
+    21300054: Nintendo Switch - Fire Emblem Warriors - Monster_27
+    21300056: Nintendo Switch - Fire Emblem Warriors - Monster_28
+    21300058: Nintendo Switch - Fire Emblem Warriors - Monster_29
+    21300060: Nintendo Switch - Fire Emblem Warriors - Monster_30
+    21300062: Nintendo Switch - Fire Emblem Warriors - Monster_31
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 21
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 198
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77ca8a2479bbb040993228d6580813c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 198
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fc9557cdfc28b49934a55342ccefb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 198
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed91437097879845818f8913d5f46ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 198
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f12952605cc1a043bcfc39154035a63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_4
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 198
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9785c266653276a4db359487137e207e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_5
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 198
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6beba0978e185d48a6321642122276c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_6
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 198
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbe26c6f90d29f4c895470c83a2aa02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_7
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 198
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126db4320883dee4a89027a7a61a25f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 134
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2139cda9715cf764f8adefa7f656aed8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 134
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706d569dfb87c4543824d6962390c362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_10
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 134
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9aa309fb4a2844aa252992a4dc0385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 134
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7fdacdd30bb7a40ac92c1a6299f0df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_12
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 134
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69713c3ad96de542acca46a96ba173e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_13
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 134
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7191709944555dc489957819e3cc5030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_14
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 134
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a060d5c19d1ad45ab0ab32db26d670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_15
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 134
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb0ba294aa05f14b95f5de38c18b2c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 70
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00091a5fc0640145a5dd312dc17afe5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_17
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 70
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a86735d27cbc6af489fb1e164735f724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 70
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cdeec223ca25e4c9fc4b617269e8a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_19
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 70
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fafa6bbb1e01674b926d9e7728efd07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_20
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 70
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 988dffb9638ccea41bfc16536090508a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_21
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 70
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17763389aa95a0d41b28cd74358eeb20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_22
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 70
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2d757c98db28146b2c14da05f458dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_23
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 70
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674d4d2a32dd8f9439f10f5785ba0372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 6
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa0ec663c1f11044b15331f9f2e3a74
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_25
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 6
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9207208f642dde244974ca1aab453113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_26
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 6
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316db7ddea77eda4dbe9da2d45e439b2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_27
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 6
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fde8d500a4e103429cfcb291b1f132f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_28
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 6
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c143a817091da46964b9763764a6bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_29
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 6
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1f424818d78bb45a65a22d790ba1dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_30
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 6
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e96f5ada0c68a429eee50a081bfbb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nintendo Switch - Fire Emblem Warriors - Monster_31
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 6
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a838173f73fe448a106efdcd32c2cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2798fba530a690c4eb8671d97378cb68
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
