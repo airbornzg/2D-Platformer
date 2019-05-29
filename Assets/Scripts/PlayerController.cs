@@ -109,13 +109,11 @@ public class PlayerController : MonoBehaviour
         {
             myRigidbody2d.velocity = new Vector3(moveSpeed, myRigidbody2d.velocity.y, 0f);
             spriteRenderer.flipX = false;
-            //transform.localScale = new Vector3(1f, 1f, 1f);
         }
         else if (Input.GetAxisRaw("Horizontal") < 0f)
         {
             myRigidbody2d.velocity = new Vector3(-moveSpeed, myRigidbody2d.velocity.y, 0f);
             spriteRenderer.flipX = true;
-            //transform.localScale = new Vector3(-1f, 1f, 1f);
         }
         else
         {

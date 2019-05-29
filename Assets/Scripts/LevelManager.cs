@@ -46,7 +46,6 @@ public class LevelManager : MonoBehaviour
 
     //Reference
     private PlayerController thePlayer;
-    private MonsterControl theMonster;
 
     //Monster
     private GameObject monster;
@@ -56,8 +55,12 @@ public class LevelManager : MonoBehaviour
     void Start()
     {
         thePlayer = FindObjectOfType<PlayerController>();
-        theMonster = FindObjectOfType<MonsterControl>();
         gameObjectToReset = FindObjectsOfType<GameResetOnRespawn>();
+
+        if (GameObject.FindGameObjectsWithTag("Monster").Length > 0)
+        {
+            monster = GameObject.FindWithTag("Monster");
+        }
 
         healthCount = maxHealth;
 
@@ -116,6 +119,10 @@ public class LevelManager : MonoBehaviour
             else
             {
                 thePlayer.gameObject.SetActive(false);
+                if (monster != null)
+                {
+                    monster.SetActive(false);
+                }
                 gameOverWindow.SetActive(true);
             }
         }
@@ -125,10 +132,11 @@ public class LevelManager : MonoBehaviour
     public IEnumerator RespawnCoroutine()
     {
         thePlayer.gameObject.SetActive(false);
-        if (GameObject.FindGameObjectsWithTag("Monster").Length < 0)
+        if (monster != null)
         {
-            theMonster.gameObject.SetActive(false);
+            monster.SetActive(false);
         }
+
         StartDeathVFX();
 
         yield return new WaitForSeconds(waitToRespawn);
@@ -173,10 +181,10 @@ public class LevelManager : MonoBehaviour
 
         thePlayer.gameObject.SetActive(true);
 
-        if (GameObject.FindGameObjectsWithTag("Monster").Length < 0)
+        if (monster != null)
         {
-            theMonster.transform.position = new Vector2(thePlayer.transform.position.x - 10, thePlayer.transform.position.y);
-            theMonster.gameObject.SetActive(true);
+            monster.transform.position = new Vector2(thePlayer.transform.position.x - 10, thePlayer.transform.position.y);
+            monster.gameObject.SetActive(true);
         }
     }
 
