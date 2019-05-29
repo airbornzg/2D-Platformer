@@ -13,7 +13,13 @@ public class MonsterFollow : MonoBehaviour
 
     private Vector2 targetPosition;
     public float speed = 5.0f;
-  
+
+    public Transform firepoint;
+    public GameObject firePrefab;
+    float fireRate;
+    float nextFire;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +28,9 @@ public class MonsterFollow : MonoBehaviour
         theLevelManager = FindObjectOfType<LevelManager>();
         groundTiles = GameObject.FindWithTag("Ground");
 
-        transform.position = new Vector2(player.transform.position.x - 10, player.transform.position.y);
+        transform.position = new Vector2(player.transform.position.x - 12, player.transform.position.y);
+        fireRate = 1.16f;
+        nextFire = Time.time;
         //moveForward();
     }
 
@@ -30,24 +38,28 @@ public class MonsterFollow : MonoBehaviour
     void LateUpdate()
     {
 
-        if (Vector2.Distance(player.transform.position, transform.position) < 1)
+        if (Vector2.Distance(player.transform.position, transform.position) < 5)
         {
             anim.SetBool("attack", true);
-            StartCoroutine(DelayUpdate());
+            CheckIfTimeToFire();
         }
         else
         {
+            anim.SetBool("attack", false);
             targetPosition = new Vector2(player.transform.position.x, player.transform.position.y + 0.5f);
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, 3 * Time.deltaTime);
         }
     }
-   
-    private IEnumerator DelayUpdate()
+
+    void CheckIfTimeToFire ()
     {
-        yield return new WaitForSeconds(1.8f);
-        anim.SetBool("attack", false);
-        theLevelManager.PlayerDamage(theLevelManager.maxHealth);
-        theLevelManager.Respawn();
+        if(Time.time > nextFire)
+        {
+            Instantiate(firePrefab, firepoint.position, firepoint.rotation);
+            nextFire = Time.time + fireRate;
+        }
+
+
     }
 
     void OnCollisionStay(Collision collisionInfo)
