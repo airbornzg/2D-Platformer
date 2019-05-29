@@ -3087,12 +3087,12 @@ PrefabInstance:
     - target: {fileID: 3997954332564925116, guid: 28f8c43117f284035a306a000b99f546,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1825
+      value: 1441.5
       objectReference: {fileID: 0}
     - target: {fileID: 3997954332564925116, guid: 28f8c43117f284035a306a000b99f546,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -34
+      value: 59.5
       objectReference: {fileID: 0}
     - target: {fileID: 3997954334462085487, guid: 28f8c43117f284035a306a000b99f546,
         type: 3}
@@ -3494,86 +3494,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8888369694912466825, guid: 452c3ed765e3dee4193b40419c2dfd0a,
     type: 3}
   m_PrefabInstance: {fileID: 1585077375}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1615475753
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 2103916343}
-    m_Modifications:
-    - target: {fileID: 328580900548487767, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_Name
-      value: Ice Ground 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 328580900548487767, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_TagString
-      value: Ground
-      objectReference: {fileID: 0}
-    - target: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.47
-      objectReference: {fileID: 0}
-    - target: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -3.86
-      objectReference: {fileID: 0}
-    - target: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7221491018d5144a6b60aadaf979fb9d, type: 3}
---- !u!4 &1615475754 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 759610165281164219, guid: 7221491018d5144a6b60aadaf979fb9d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1615475753}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1684429018
 PrefabInstance:
@@ -4545,7 +4465,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1615475754}
   - {fileID: 1186466697}
   - {fileID: 682655471}
   - {fileID: 606107020}
