@@ -21,7 +21,7 @@ public class MonsterControl_Level2 : MonoBehaviour
         theLevelManager = FindObjectOfType<LevelManager>();
         groundTiles = GameObject.FindWithTag("Ground");
 
-        transform.position = new Vector2(player.transform.position.x - 10, player.transform.position.y);
+        //transform.position = new Vector2(player.transform.position.x - 10, player.transform.position.y);
         //moveForward();
     }
 
@@ -47,6 +47,12 @@ public class MonsterControl_Level2 : MonoBehaviour
         anim.SetBool("attack", false);
         theLevelManager.PlayerDamage(theLevelManager.maxHealth);
         theLevelManager.Respawn();
+    }
+
+    private IEnumerator DelayMonsterMovement(float delay)
+    {
+        yield return new WaitForSeconds(1.8f);
+        LateUpdate();
     }
 
     void OnCollisionStay(Collision collisionInfo)
