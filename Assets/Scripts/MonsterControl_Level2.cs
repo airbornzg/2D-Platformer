@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterControl : MonoBehaviour
+public class MonsterControl_Level2 : MonoBehaviour
 {
 
     private Animator anim;
