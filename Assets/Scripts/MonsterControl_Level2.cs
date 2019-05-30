@@ -21,7 +21,7 @@ public class MonsterControl_Level2 : MonoBehaviour
         theLevelManager = FindObjectOfType<LevelManager>();
         groundTiles = GameObject.FindWithTag("Ground");
 
-        //transform.position = new Vector2(player.transform.position.x - 10, player.transform.position.y);
+        transform.position = new Vector2(player.transform.position.x - 10, player.transform.position.y);
         //moveForward();
     }
 
@@ -60,26 +60,58 @@ public class MonsterControl_Level2 : MonoBehaviour
         print("true");
     }
 
-    //private void moveForward()
-    //{
-    //    int i = 0;
-    //    while (i < groundTiles.transform.childCount)
+    //    void Start()
     //    {
-    //        GameObject tile = groundTiles.transform.GetChild(i).gameObject;
+    //        anim = GetComponent<Animator>();
+    //        player = GameObject.FindWithTag("Player");
+    //        theLevelManager = FindObjectOfType<LevelManager>();
 
-    //        while(transform.GetComponent<Rigidbody2D>())
+    //        storedPositions = new List<Vector3>(); //create a blank list
+    //    }
+
+    //    void LateUpdate()
+    //    {
+    //        if (storedPositions.Count == 0)
+    //        {
+    //            Debug.Log("blank list");
+    //            storedPositions.Add(player.transform.position); //store the players currect position
+    //            return;
+    //        }
+    //        else if (storedPositions[storedPositions.Count - 1] != player.transform.position)
+    //        {
+    //            //Debug.Log("Add to list");
+    //            storedPositions.Add(player.transform.position); //store the position every frame
+    //        }
+    //        //else if (storedPositions[storedPositions.Count - 1] == player.transform.position)
+    //        //{
+    //        //    transform.position = storedPositions[0]; //move
+    //        //    storedPositions.RemoveAt(0);
+    //        //}
+
+    //        if (storedPositions.Count > followDistance)
+    //        {
+    //            transform.position = storedPositions[0]; //move
+    //            storedPositions.RemoveAt(0); //delete the position that player just move to
+    //        }
+    //    }
+
+    //    private void OnCollisionEnter2D(Collision2D collision)
+    //    {
+    //        if (collision.gameObject.tag == "Player")
+    //        {
+    //            anim.SetBool("attack", true);
+    //            StartCoroutine(DelayUpdate());
+    //        } 
+    //    }
+
+    //    private IEnumerator DelayUpdate()
+    //    {
+    //        yield return new WaitForSeconds(1.8f);
+    //        anim.SetBool("attack", false);
+    //        theLevelManager.PlayerDamage(theLevelManager.maxHealth);
+    //        theLevelManager.Respawn();
     //    }
     //}
-
-    //void OnControllerColliderHit(ControllerColliderHit hit)
-    //{
-    //    // only check lateral collisions
-    //    if (Mathf.Abs(hit.normal.y) < 0.5)
-    //    {
-    //        jump = true; // jump if collided laterally
-    //    }
-    //}
-
     //private bool CheckMonsterIsInCameraView()
     //{
     //    Vector3 screenPoint = Camera.main.WorldToViewportPoint(transform.position);

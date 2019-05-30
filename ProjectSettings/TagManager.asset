@@ -11,6 +11,7 @@ TagManager:
   - KillPlane
   - Monster
   - Ground
+  - Trap
   layers:
   - Default
   - TransparentFX
