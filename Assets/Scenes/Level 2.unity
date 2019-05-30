@@ -1415,7 +1415,7 @@ PrefabInstance:
     - target: {fileID: 4893167357897591776, guid: 6bafb4b478f6240aa8c0321a793b0ccc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.54329
+      value: 33.69
       objectReference: {fileID: 0}
     - target: {fileID: 4893167357897591776, guid: 6bafb4b478f6240aa8c0321a793b0ccc,
         type: 3}
@@ -3102,7 +3102,7 @@ MonoBehaviour:
   objectToMove: {fileID: 1592562835}
   startPoint: {fileID: 985888830}
   endPoint: {fileID: 241492830}
-  moveSpeed: 4
+  moveSpeed: 3
 --- !u!4 &1325431165
 Transform:
   m_ObjectHideFlags: 0
