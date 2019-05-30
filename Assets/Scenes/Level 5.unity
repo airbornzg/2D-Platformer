@@ -2835,6 +2835,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8835026807323928591, guid: 7712991e6b4a1774688e831cd0539ab1,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8835026807323928591, guid: 7712991e6b4a1774688e831cd0539ab1,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5736930230189076620, guid: 7712991e6b4a1774688e831cd0539ab1,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5736930230189076620, guid: 7712991e6b4a1774688e831cd0539ab1,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 978901518643038315, guid: 7712991e6b4a1774688e831cd0539ab1,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 978901518643038315, guid: 7712991e6b4a1774688e831cd0539ab1,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7631991215585824558, guid: 7712991e6b4a1774688e831cd0539ab1,
         type: 3}
       propertyPath: m_SortingOrder
@@ -2864,36 +2894,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SortingOrder
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8835026807323928591, guid: 7712991e6b4a1774688e831cd0539ab1,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8835026807323928591, guid: 7712991e6b4a1774688e831cd0539ab1,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 5736930230189076620, guid: 7712991e6b4a1774688e831cd0539ab1,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 5736930230189076620, guid: 7712991e6b4a1774688e831cd0539ab1,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 978901518643038315, guid: 7712991e6b4a1774688e831cd0539ab1,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 1.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 978901518643038315, guid: 7712991e6b4a1774688e831cd0539ab1,
-        type: 3}
-      propertyPath: m_Offset.y
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7712991e6b4a1774688e831cd0539ab1, type: 3}
