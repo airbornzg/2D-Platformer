@@ -5,8 +5,13 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class ReplayScript : MonoBehaviour
 {
+    public Text mText;
+    void Start()
+    {
+        mText.text = PlayerPrefs.GetInt("playerScore").ToString();
+    }
     private void OnMouseDown()
     {
-        SceneManager.LoadScene("Level 5");
+        SceneManager.LoadScene("Menu");
     }
 }

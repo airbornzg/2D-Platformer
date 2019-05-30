@@ -15,18 +15,23 @@ public class Boss : MonoBehaviour
     public Transform fireBox;
     public Transform fireBox2;
     public int bossHealth = 400;
+    public int damage = 1;
     public GameObject bossDead;
+    public LevelManager lvlManager;
   
     float fireRate;
     float nextFire;
     float Distance;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        lvlManager = FindObjectOfType<LevelManager>();
         target = GameObject.Find("player5");
         fireRate = 4f;
         nextFire = Time.time;
+       
     }
 
     // Update is called once per frame
@@ -46,6 +51,7 @@ public class Boss : MonoBehaviour
         }
         Attacking();
         
+        
     }
   
     void Attacking() {
@@ -53,9 +59,12 @@ public class Boss : MonoBehaviour
         {
             if (Time.time > nextFire)
             {
-                Instantiate(bullet, fireBox.position, fireBox.rotation);
-                Instantiate(bullet, fireBox2.position, fireBox2.rotation);
-                nextFire = Time.time + fireRate;
+                if (target.activeSelf) {
+                    Instantiate(bullet, fireBox.position, fireBox.rotation);
+                    Instantiate(bullet, fireBox2.position, fireBox2.rotation);
+                    nextFire = Time.time + fireRate;
+                }
+                
             }
         }
         else {
@@ -68,13 +77,25 @@ public class Boss : MonoBehaviour
 
         if (bossHealth <=0) {
             Dead();
+            PlayerPrefs.SetInt("playerScore", lvlManager.scoreCount);
             SceneManager.LoadScene("WinScene");
         }
 
     }
 
     void Dead() {
-        Instantiate(bossDead, transform.position, Quaternion.identity);
+        GameObject clone = Instantiate(bossDead, transform.position, Quaternion.identity);
         gameObject.SetActive(false);
+        Destroy(clone, 1.0f);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Player")
+        {
+            lvlManager.PlayerDamage5(damage);
+           
+        }
+    }
+  
 }

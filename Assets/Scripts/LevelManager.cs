@@ -74,7 +74,14 @@ public class LevelManager : MonoBehaviour
     {
         if (healthCount <= 0 && !respawning)
         {
-            Respawn();
+            if (thePlayer != null) {
+                Respawn();
+            }
+            
+            if (thePlayer5 != null) {
+                Respawn5();
+            }
+            
             respawning = true;
         }
 
@@ -241,6 +248,7 @@ public class LevelManager : MonoBehaviour
         thePlayer5.transform.localScale = new Vector3(1f, 1f, 1f);
 
         thePlayer5.gameObject.SetActive(true);
+        
 
     }
 
