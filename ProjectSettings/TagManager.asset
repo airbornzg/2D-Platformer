@@ -49,11 +49,14 @@ TagManager:
   - name: Background
     uniqueID: 2429576057
     locked: 0
+  - name: World Objects
+    uniqueID: 2323610327
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: New Layer
-    uniqueID: 2323610327
+  - name: Player
+    uniqueID: 654912003
     locked: 0
   - name: New Layer
     uniqueID: 228023225

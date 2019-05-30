@@ -5401,5 +5401,15 @@ PrefabInstance:
       propertyPath: m_FlipY
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8512066718041617487, guid: 0c391b3cb0b8f4da5ab9f6645f6e387b,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8512066718041617487, guid: 0c391b3cb0b8f4da5ab9f6645f6e387b,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c391b3cb0b8f4da5ab9f6645f6e387b, type: 3}
