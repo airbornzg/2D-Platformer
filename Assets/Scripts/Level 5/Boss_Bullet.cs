@@ -17,9 +17,12 @@ public class Boss_Bullet : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         target = GameObject.Find("player5");
-        moveDirection = (target.transform.position - transform.position).normalized * moveSpd;
-        rb.velocity = new Vector2(moveDirection.x, moveDirection.y);
-        lvlManager = FindObjectOfType<LevelManager>();
+        if (target.activeSelf) {
+            moveDirection = (target.transform.position - transform.position).normalized * moveSpd;
+            rb.velocity = new Vector2(moveDirection.x, moveDirection.y);
+            lvlManager = FindObjectOfType<LevelManager>();
+        }
+        
         Destroy(gameObject, 3f);
     }
 
@@ -27,8 +30,7 @@ public class Boss_Bullet : MonoBehaviour
     {
         if (collision.tag == "Player") {
             Debug.Log(collision.name);
-            lvlManager.PlayerDamage5(damage);
-            lvlManager.Respawn5();
+            lvlManager.PlayerDamage5(damage);    
             Destroy(gameObject);
         }
        

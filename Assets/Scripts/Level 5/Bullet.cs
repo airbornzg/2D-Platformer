@@ -33,7 +33,13 @@ public class Bullet : MonoBehaviour
             enemy.TakeDamage(damage);
            
         }
-        Instantiate(impact, transform.position, transform.rotation);
+        GameObject clone = Instantiate(impact, transform.position, transform.rotation); // store instantiate impact to clone
+        Destroy(gameObject);
+        Destroy(clone,1.0f); // destroy clone after 1s
+      
+    }
+    private void OnBecameInvisible()
+    {
         Destroy(gameObject);
     }
 

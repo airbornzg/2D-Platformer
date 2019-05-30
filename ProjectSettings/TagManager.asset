@@ -5,13 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Checkpoint
-  - MovingPlatform
-  - Enemy
+  - Edge
   - Death Block
-  - KillPlane
   - Monster
-  - Ground
-  - Trap
   layers:
   - Default
   - TransparentFX
@@ -21,8 +17,8 @@ TagManager:
   - UI
   - 
   - 
-  - Ground
-  - Player
+  - 
+  - 
   - 
   - 
   - 
@@ -46,15 +42,6 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Background
-    uniqueID: 2481751899
-    locked: 0
-  - name: World Objects
-    uniqueID: 254372647
-    locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Player
-    uniqueID: 4048847773
     locked: 0
