@@ -50,6 +50,7 @@ public class LevelManager : MonoBehaviour
 
     //Monster
     private GameObject monster;
+    private MonsterControl_Level2 theMonster;
     
 
     // Start is called before the first frame update
@@ -58,6 +59,7 @@ public class LevelManager : MonoBehaviour
         thePlayer = FindObjectOfType<PlayerController>();
         thePlayer5 = FindObjectOfType<player5Controller>();
         gameObjectToReset = FindObjectsOfType<GameResetOnRespawn>();
+        theMonster = FindObjectOfType<MonsterControl_Level2>();
 
         if (GameObject.FindGameObjectsWithTag("Monster").Length > 0)
         {
@@ -242,7 +244,7 @@ public class LevelManager : MonoBehaviour
 
         if (monster != null)
         {
-            monster.transform.position = new Vector2(thePlayer.transform.position.x - 10, thePlayer.transform.position.y);
+            theMonster.SetupStoredPositions();
             monster.gameObject.SetActive(true);
         }
     }
