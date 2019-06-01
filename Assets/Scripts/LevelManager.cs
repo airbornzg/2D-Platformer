@@ -277,6 +277,7 @@ public class LevelManager : MonoBehaviour
             if (healthCount > 0)
             {
                 thePlayer.PushedBack();
+                thePlayer.damageAudio.Play();
             }
         }
     }
