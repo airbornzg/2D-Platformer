@@ -4127,16 +4127,6 @@ PrefabInstance:
       propertyPath: gameOverWindow
       value: 
       objectReference: {fileID: 399629948}
-    - target: {fileID: 3704932397513002904, guid: 27e16aab0c6ee2e45912f7d5e9511cbb,
-        type: 3}
-      propertyPath: ScoreToRedeem
-      value: 30
-      objectReference: {fileID: 0}
-    - target: {fileID: 3704932397513002904, guid: 27e16aab0c6ee2e45912f7d5e9511cbb,
-        type: 3}
-      propertyPath: scoreExtraLifeCount
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3704932397513002905, guid: 27e16aab0c6ee2e45912f7d5e9511cbb,
         type: 3}
       propertyPath: m_LocalPosition.x
