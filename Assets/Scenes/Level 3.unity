@@ -233,6 +233,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Platform (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 659781347472179213, guid: ad6580a88b85447459fc1d7644166cd2,
+        type: 3}
+      propertyPath: m_TagString
+      value: MovingPlatform
+      objectReference: {fileID: 0}
     - target: {fileID: 659781347472179443, guid: ad6580a88b85447459fc1d7644166cd2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -631,6 +636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: stage_0 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8428838892651137105, guid: 18f056a1a4a594341855e43a1921d6dd,
+        type: 3}
+      propertyPath: m_TagString
+      value: MovingPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 8428838892651137107, guid: 18f056a1a4a594341855e43a1921d6dd,
         type: 3}
@@ -2462,16 +2472,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1630741802}
     m_Modifications:
-    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
-        type: 3}
-      propertyPath: m_Name
-      value: Check Point
-      objectReference: {fileID: 0}
-    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
-        type: 3}
-      propertyPath: m_TagString
-      value: Checkpoint
-      objectReference: {fileID: 0}
     - target: {fileID: 8416714103723728096, guid: a0677b41d61d84003b261d7e03208f5b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2526,6 +2526,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
+        type: 3}
+      propertyPath: m_Name
+      value: Check Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0677b41d61d84003b261d7e03208f5b, type: 3}
@@ -2908,6 +2918,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Moving Platform (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 659781347472179213, guid: ad6580a88b85447459fc1d7644166cd2,
+        type: 3}
+      propertyPath: m_TagString
+      value: MovingPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 659781347472179443, guid: ad6580a88b85447459fc1d7644166cd2,
         type: 3}
@@ -3816,6 +3831,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Moving Platform (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 659781347472179213, guid: ad6580a88b85447459fc1d7644166cd2,
+        type: 3}
+      propertyPath: m_TagString
+      value: MovingPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 659781347472179443, guid: ad6580a88b85447459fc1d7644166cd2,
         type: 3}
@@ -5065,6 +5085,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Platform (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 659781347472179213, guid: ad6580a88b85447459fc1d7644166cd2,
+        type: 3}
+      propertyPath: m_TagString
+      value: MovingPlatform
+      objectReference: {fileID: 0}
     - target: {fileID: 659781347472179443, guid: ad6580a88b85447459fc1d7644166cd2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5854,16 +5879,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1630741802}
     m_Modifications:
-    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
-        type: 3}
-      propertyPath: m_Name
-      value: Check Point (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
-        type: 3}
-      propertyPath: m_TagString
-      value: Checkpoint
-      objectReference: {fileID: 0}
     - target: {fileID: 8416714103723728096, guid: a0677b41d61d84003b261d7e03208f5b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5918,6 +5933,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
+        type: 3}
+      propertyPath: m_Name
+      value: Check Point (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0677b41d61d84003b261d7e03208f5b, type: 3}
@@ -6465,11 +6490,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1630741802}
     m_Modifications:
-    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
-        type: 3}
-      propertyPath: m_Name
-      value: Check Point (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 8416714103723728096, guid: a0677b41d61d84003b261d7e03208f5b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6524,6 +6544,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
+        type: 3}
+      propertyPath: m_Name
+      value: Check Point (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0677b41d61d84003b261d7e03208f5b, type: 3}
@@ -6905,6 +6930,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Moving Platform
       objectReference: {fileID: 0}
+    - target: {fileID: 659781347472179213, guid: ad6580a88b85447459fc1d7644166cd2,
+        type: 3}
+      propertyPath: m_TagString
+      value: MovingPlatform
+      objectReference: {fileID: 0}
     - target: {fileID: 659781347472179443, guid: ad6580a88b85447459fc1d7644166cd2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7143,6 +7173,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Moving Platform (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 659781347472179213, guid: ad6580a88b85447459fc1d7644166cd2,
+        type: 3}
+      propertyPath: m_TagString
+      value: MovingPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 659781347472179443, guid: ad6580a88b85447459fc1d7644166cd2,
         type: 3}
@@ -7887,6 +7922,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Moving Platform
+      objectReference: {fileID: 0}
+    - target: {fileID: 659781347472179213, guid: ad6580a88b85447459fc1d7644166cd2,
+        type: 3}
+      propertyPath: m_TagString
+      value: MovingPlatform
       objectReference: {fileID: 0}
     - target: {fileID: 659781347472179443, guid: ad6580a88b85447459fc1d7644166cd2,
         type: 3}
