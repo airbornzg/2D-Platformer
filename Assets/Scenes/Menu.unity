@@ -140,7 +140,7 @@ RectTransform:
   m_GameObject: {fileID: 62963115}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.5009, y: 2.5009, z: 2.5009}
   m_Children:
   - {fileID: 1768654500}
   m_Father: {fileID: 1222054215}
@@ -148,7 +148,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -195}
+  m_AnchoredPosition: {x: 4, y: -482}
   m_SizeDelta: {x: 188.9, y: 41.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &62963117
@@ -374,11 +374,11 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
+    m_MinSize: 0
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 1062828822}
   - component: {fileID: 1062828821}
   m_Layer: 5
-  m_Name: Continue
+  m_Name: Level Selection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -504,7 +504,7 @@ RectTransform:
   m_GameObject: {fileID: 1062828819}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.5009, y: 2.5009, z: 2.5009}
   m_Children:
   - {fileID: 1522316205}
   m_Father: {fileID: 1222054215}
@@ -512,7 +512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -135}
+  m_AnchoredPosition: {x: 3.9999616, y: -331.95004}
   m_SizeDelta: {x: 188.9, y: 41.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1062828821
@@ -556,7 +556,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1222054216}
-        m_MethodName: ContinueGame
+        m_MethodName: LevelSelection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -723,6 +723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorialLevel: Tutorial Level
   continueLevel: 
+  levelSelection: Level Selection
   startingLifeNumber: 3
 --- !u!1 &1301657773
 GameObject:
@@ -849,10 +850,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -860,7 +861,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Countine Game
+  m_Text: Level Selection
 --- !u!222 &1522316207
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -897,7 +898,7 @@ RectTransform:
   m_GameObject: {fileID: 1595248602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.5009, y: 2.5009, z: 2.5009}
   m_Children:
   - {fileID: 526613177}
   m_Father: {fileID: 1222054215}
@@ -905,7 +906,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -75}
+  m_AnchoredPosition: {x: 3.9999616, y: -181.89804}
   m_SizeDelta: {x: 188.9, y: 41.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1595248604
@@ -1057,10 +1058,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
