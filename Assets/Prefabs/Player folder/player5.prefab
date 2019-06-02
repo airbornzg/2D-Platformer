@@ -194,7 +194,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -246119523
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c2c08c932c2054a0da13bc4dd9db298d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -287,7 +287,7 @@ MonoBehaviour:
   movementSmooth: 0.05
   groundMask:
     serializedVersion: 2
-    m_Bits: 311
+    m_Bits: 55
   groundCheck: {fileID: 8511022065897782641}
   onAirControl: 1
   headCheck: {fileID: 8511022065402651689}
@@ -341,6 +341,9 @@ MonoBehaviour:
   moveSpd: 40
   lvlManager: {fileID: 0}
   respawnPosition: {x: 0, y: 0, z: 0}
+  jumpAudio: {fileID: 0}
+  gunAudio: {fileID: 0}
+  controlWall: {fileID: 0}
 --- !u!95 &8511022065992550797
 Animator:
   serializedVersion: 3

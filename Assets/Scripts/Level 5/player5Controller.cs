@@ -15,13 +15,17 @@ public class player5Controller : MonoBehaviour
     public LevelManager lvlManager;
     private int killPlayerDamage;
     public Vector3 respawnPosition;
+    [SerializeField] AudioSource jumpAudio;
+    [SerializeField] AudioSource gunAudio;
+    public GameObject controlWall; // cai nay chut xu ly tip sau khi xong boss
+    //cai animation hurt de xem add sau 
 
-    
     // Start is called before the first frame update
     void Start()
     {
         lvlManager = FindObjectOfType<LevelManager>();
 
+        
         //Define the instant kill damage
         killPlayerDamage = lvlManager.maxHealth;
 
@@ -39,6 +43,7 @@ public class player5Controller : MonoBehaviour
         if (Input.GetButtonDown("Jump")) {
             onJump = true; // set the value to true for jump
             player5_Anim.SetBool("onGround", false);
+            jumpAudio.Play();
         }
 
         if (Input.GetButtonDown("Crouch")) {
@@ -50,6 +55,7 @@ public class player5Controller : MonoBehaviour
         {
             shotClicked = true;
             player5_Anim.SetBool("Shot",shotClicked);
+            gunAudio.Play();
            
 
         }
@@ -58,10 +64,17 @@ public class player5Controller : MonoBehaviour
             player5_Anim.SetBool("Shot", shotClicked);
           
         }
+        if (transform.position.x >= 125)
+        {
+            controlWall.SetActive(true);
+        }
     }
 
     public void OnGround() {
-        player5_Anim.SetBool("onGround", true);
+        if (GetComponent<Rigidbody2D>().velocity.y <= 0) {
+            player5_Anim.SetBool("onGround", true);
+        }
+        
     }
 
     public void onCrouching  (bool isCrouching) {
@@ -82,6 +95,7 @@ public class player5Controller : MonoBehaviour
         {
            lvlManager.PlayerDamage5(killPlayerDamage);
            lvlManager.Respawn5();
+            controlWall.SetActive(false);
         }
 
         if (collision.tag == "Checkpoint")
