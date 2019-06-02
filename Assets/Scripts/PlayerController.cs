@@ -35,6 +35,10 @@ public class PlayerController : MonoBehaviour
 
     private int killPlayerDamage;
 
+    [SerializeField] AudioSource jumpAudio;
+    public AudioSource damageAudio;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -128,6 +132,8 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             myRigidbody2d.velocity = new Vector3(myRigidbody2d.velocity.x, jumpHeight, 0f);
+
+            jumpAudio.Play();
         }
     }
 

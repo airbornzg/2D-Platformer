@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour
 
     [SerializeField] string tutorialLevel;
     [SerializeField] string continueLevel;
+    [SerializeField] string levelSelection;
 
     [SerializeField] int startingLifeNumber;
 
@@ -29,6 +30,11 @@ public class Menu : MonoBehaviour
 
         PlayerPrefs.SetInt("ScoreCount", 0);
         PlayerPrefs.SetInt("LifeCount", startingLifeNumber);
+    }
+
+    public void LevelSelection()
+    {
+        SceneManager.LoadScene(levelSelection);
     }
 
     public void ContinueGame()

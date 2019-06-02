@@ -51,6 +51,9 @@ public class LevelManager : MonoBehaviour
     //Monster
     private GameObject monster;
     private MonsterControl_Level2 theMonster;
+
+    //Audio
+    [SerializeField] AudioSource collectibleAudio;
     
 
     // Start is called before the first frame update
@@ -268,6 +271,8 @@ public class LevelManager : MonoBehaviour
         scoreExtraLifeCount += scoreToAdd;
 
         scoreText.text = "Score: " + scoreCount.ToString();
+
+        collectibleAudio.Play();
     }
 
     public void PlayerDamage(int damageToTake)
@@ -279,6 +284,7 @@ public class LevelManager : MonoBehaviour
             if (healthCount > 0)
             {
                 thePlayer.PushedBack();
+                thePlayer.damageAudio.Play();
             }
         }
     }
@@ -342,12 +348,14 @@ public class LevelManager : MonoBehaviour
 
     public void AddExtraLife (int addLife)
     {
+        collectibleAudio.Play();
         currentLifeNumber += addLife;
         lifeText.text = "Life left: " + currentLifeNumber;
     }
 
     public void AddExtraHealth(int addHealth)
     {
+        collectibleAudio.Play();
         healthCount += addHealth;
 
         if (healthCount > maxHealth)
