@@ -50,6 +50,7 @@ public class LevelManager : MonoBehaviour
 
     //Monster
     private GameObject monster;
+    private MonsterControl_Level2 theMonster;
 
     //Audio
     [SerializeField] AudioSource collectibleAudio;
@@ -61,6 +62,7 @@ public class LevelManager : MonoBehaviour
         thePlayer = FindObjectOfType<PlayerController>();
         thePlayer5 = FindObjectOfType<player5Controller>();
         gameObjectToReset = FindObjectsOfType<GameResetOnRespawn>();
+        theMonster = FindObjectOfType<MonsterControl_Level2>();
 
         if (GameObject.FindGameObjectsWithTag("Monster").Length > 0)
         {
@@ -82,10 +84,12 @@ public class LevelManager : MonoBehaviour
         {
             if (thePlayer != null) {
                 Respawn();
+               
             }
             
             if (thePlayer5 != null) {
                 Respawn5();
+                thePlayer5.player5_render.enabled = true;
             }
             
             respawning = true;
@@ -245,7 +249,7 @@ public class LevelManager : MonoBehaviour
 
         if (monster != null)
         {
-            monster.transform.position = new Vector2(thePlayer.transform.position.x - 10, thePlayer.transform.position.y);
+            theMonster.SetupStoredPositions();
             monster.gameObject.SetActive(true);
         }
     }

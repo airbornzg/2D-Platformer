@@ -18,8 +18,8 @@ public class MoveState : ISemiBoss
         Move();
      
         SemiBoss.Movement();
-
-        if (SemiBoss.Target != null && SemiBoss.inShootRange) {
+        if (SemiBoss.Target !=null && SemiBoss.InShootRange)
+        {
             SemiBoss.ChangeState(new RangeState());
         }
     }
@@ -41,7 +41,6 @@ public class MoveState : ISemiBoss
         
         //idle time increase overtime
         moveTimer += Time.deltaTime;
-
         if (moveTimer >= moveDuration)
         {
             SemiBoss.ChangeState(new IdleState());

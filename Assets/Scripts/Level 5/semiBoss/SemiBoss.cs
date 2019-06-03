@@ -10,47 +10,76 @@ public class SemiBoss : MonoBehaviour
     public float moveSpd;
     public Transform fireBox;
     public GameObject bullet;
+    public bool canAttack;
+    
+    public int bossHealth;
+    private bool isDeath;
+    public GameObject WallLeft; 
+    public GameObject WallRight;
+    [SerializeField]
+    private EdgeCollider2D meleePoint;
+
+    public bool TakingDamage { get; set; }
+    public GameObject Target { get; set; }
 
     [SerializeField]
-    private float MeleeRange;
-    [SerializeField]
-    private float ShootRange;
-    public bool inMeleeRange {
-        get {
+    private float meleeRange;
+    public bool InMeleeRange
+    {
+        get
+        {
             if (Target != null) {
-                return Vector2.Distance(transform.position, Target.transform.position) <= MeleeRange;
+                return Vector2.Distance(transform.position, Target.transform.position) <= meleeRange;
             }
             return false;
         }
     }
 
-    public bool inShootRange
+    [SerializeField]
+    private float shootRange;
+
+    public bool InShootRange
     {
         get
         {
             if (Target != null)
             {
-                return Vector2.Distance(transform.position, Target.transform.position) <= ShootRange;
+                return Vector2.Distance(transform.position, Target.transform.position) <= shootRange;
             }
             return false;
         }
     }
-
-    public GameObject Target { get; set; }
     // Start is called before the first frame update
     void Start()
     {
         ChangeState(new IdleState()); // set the first state is idle
-       // Target = GameObject.Find("player5");
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-       
-        currentState.Execute();
 
-        LookAtTarget();
+        if (bossHealth <= 0)
+        {
+            isDeath = true;
+        }
+        else
+        {
+            isDeath = false;
+        }
+
+        if (!isDeath)
+        {
+
+            if (!TakingDamage)
+            {
+                currentState.Execute();
+            }
+
+            LookAtTarget();
+        }
+       
         
     }
     private void LookAtTarget() {
@@ -75,9 +104,11 @@ public class SemiBoss : MonoBehaviour
 
     }
     public void Movement() {
-        s_anim.SetFloat("spd",1);
-        // tell unity to get direction of boss and add move to that direction with given spd
-        transform.Translate(GetDirection() * (moveSpd * Time.deltaTime));
+        if (!canAttack) {
+            s_anim.SetFloat("spd", 1);
+            // tell unity to get direction of boss and add move to that direction with given spd
+            transform.Translate(GetDirection() * (moveSpd * Time.deltaTime));
+        }
 
     }
     public Vector2 GetDirection() {
@@ -113,6 +144,22 @@ public class SemiBoss : MonoBehaviour
         }
     }
     public void MeleeAtk() {
-        Debug.Log("attacked");
+        // Debug.Log("attacked");
+        meleePoint.enabled = !meleePoint.enabled;
+    }
+
+    public void TakeDamage(int damage) {
+        bossHealth -= damage;
+
+        if (!isDeath)
+        {
+            s_anim.SetTrigger("Damage");
+        }
+        else
+        {
+            s_anim.SetTrigger("Death");
+            gameObject.SetActive(false);
+           
+        }
     }
 }

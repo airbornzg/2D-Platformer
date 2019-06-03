@@ -17,15 +17,34 @@ public class player5Controller : MonoBehaviour
     public Vector3 respawnPosition;
     [SerializeField] AudioSource jumpAudio;
     [SerializeField] AudioSource gunAudio;
-    public GameObject controlWall; // cai nay chut xu ly tip sau khi xong boss
+    public GameObject WallLeft; // cai nay chut xu ly tip sau khi xong boss
+    public GameObject WallRight;
+    private bool isDeath;
+    [SerializeField]
+    private GameObject semiboss;
+
+    [SerializeField]
+    private int enemyDamage;
+
+    [SerializeField]
+    private int bossDamage;
+
+    public SpriteRenderer player5_render;
+
+    private bool immortal = false;
+
+    [SerializeField]
+    private float immortalTime;
+    
     //cai animation hurt de xem add sau 
 
     // Start is called before the first frame update
     void Start()
     {
         lvlManager = FindObjectOfType<LevelManager>();
-
         
+
+        player5_render = GetComponent<SpriteRenderer>();
         //Define the instant kill damage
         killPlayerDamage = lvlManager.maxHealth;
 
@@ -64,9 +83,21 @@ public class player5Controller : MonoBehaviour
             player5_Anim.SetBool("Shot", shotClicked);
           
         }
-        if (transform.position.x >= 125)
+        if (transform.position.x >= 125 && semiboss.activeSelf)
         {
-            controlWall.SetActive(true);
+            WallLeft.SetActive(true);
+            WallRight.SetActive(true);
+        }
+        if (!semiboss.activeSelf) {
+            WallLeft.SetActive(false);
+            WallRight.SetActive(false);
+        }
+        if (lvlManager.maxHealth <= 0)
+        {
+            isDeath = true;
+        }
+        else {
+            isDeath = false;
         }
     }
 
@@ -81,26 +112,87 @@ public class player5Controller : MonoBehaviour
            
         player5_Anim.SetBool("isCrouch", isCrouching);
     }
-   
+    void notImmortal() {
+        immortal = false;
+    }
+
+    private IEnumerator IndicateImmortal() {
+        
+            while (immortal)
+            {
+                player5_render.enabled = false;
+
+                yield return new WaitForSeconds(0.1f);
+
+                player5_render.enabled = true;
+
+                yield return new WaitForSeconds(0.1f);
+            }
+       
+        
+    }
     void FixedUpdate()
     {
         // m_controller.Move(horizonMove * Time.fixedDeltaTime ,onCrouch,onJump);
         playerMovement.Move(horizonMove * Time.fixedDeltaTime, onCrouch, onJump);
         onJump = false; //reset the value of onground back to false
     }
-
+   
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Death Block")
         {
            lvlManager.PlayerDamage5(killPlayerDamage);
-           lvlManager.Respawn5();
-            controlWall.SetActive(false);
+           lvlManager.Respawn5();     
         }
 
         if (collision.tag == "Checkpoint")
         {
             respawnPosition = collision.transform.position;
+            WallLeft.SetActive(false);
+            WallRight.SetActive(false);
+        }
+        if (collision.tag == "S_Melee") {
+            if (!immortal) {
+                if (!isDeath)
+                {
+                    lvlManager.PlayerDamage5(bossDamage);
+                    immortal = true;
+                    StartCoroutine(IndicateImmortal());
+                    Invoke("notImmortal", immortalTime);
+                }
+            }
+        }
+        if (collision.tag == "Enemy") {
+            if (!immortal)
+            {
+                if (!isDeath)
+                {
+                    lvlManager.PlayerDamage5(enemyDamage);
+                    immortal = true;
+                    StartCoroutine(IndicateImmortal());
+                    Invoke("notImmortal", immortalTime);
+                }
+                else {
+                    lvlManager.Respawn5();
+                }
+            }
+        }
+        if (collision.tag == "Boss_bullet") {
+            if (gameObject.activeSelf) {
+                if (!immortal)
+                {
+                    if (!isDeath)
+                    {
+                        lvlManager.PlayerDamage5(bossDamage);
+                        Destroy(collision.gameObject);
+                        immortal = true;
+                        StartCoroutine(IndicateImmortal());
+                        Invoke("notImmortal", immortalTime);
+                    }
+                }
+            }
+            
         }
     }
 }

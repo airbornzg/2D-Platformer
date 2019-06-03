@@ -9,7 +9,13 @@ public class EnemyIgnoreCollision : MonoBehaviour
   
     private CircleCollider2D player5Circle;
    
-    // Start is called before the first frame update
+    /*
+     * So this one work one in awake
+     * when respawn of course not
+     * figure out how to deal with it 
+     * or put on update
+     * 
+     */
     private void Awake()
     {
         player5Box = GameObject.Find("player5").GetComponent<BoxCollider2D>();

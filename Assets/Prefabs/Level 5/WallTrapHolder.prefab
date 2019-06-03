@@ -122,7 +122,6 @@ GameObject:
   - component: {fileID: 7269724127061550651}
   - component: {fileID: 7269724127061550652}
   - component: {fileID: 7269724127061550655}
-  - component: {fileID: 7269724127061550650}
   - component: {fileID: 6762456675437185599}
   m_Layer: 0
   m_Name: WallTrap
@@ -236,20 +235,6 @@ MonoBehaviour:
   rightPoint: {fileID: 7269724127690234004}
   moveSpeed: 2
   movingRight: 0
---- !u!114 &7269724127061550650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7269724127061550593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3d6087df6133fd42baadaa6d0e8e5bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theLevelManager: {fileID: 0}
-  damage: 1
 --- !u!114 &6762456675437185599
 MonoBehaviour:
   m_ObjectHideFlags: 0

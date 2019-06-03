@@ -16,23 +16,24 @@ public class Bullet : MonoBehaviour
     }
      void OnTriggerEnter2D(Collider2D hitBox)
     {
-        //Debug.Log(hitBox.name);
-      /*  if (hitBox.gameObject.name == "Boss_X") {
-            if (hitBox.tag == "B_HitBox") {
-                Destroy(gameObject);
-            }
-        }*/
-       Enemy5Script enemy =  hitBox.GetComponent<Enemy5Script>();
+        Enemy5Script enemy =  hitBox.GetComponent<Enemy5Script>();
         Boss boss = hitBox.GetComponent<Boss>();
+        SemiBoss s_boss = hitBox.GetComponent<SemiBoss>();
 
         if (boss !=null) {
             Debug.Log(hitBox.name);
             boss.DamageBoss(damage);
         }
+
         if (enemy != null) {
             enemy.TakeDamage(damage);
            
         }
+        if (s_boss != null) {
+            s_boss.TakeDamage(damage);
+        }
+  
+
         GameObject clone = Instantiate(impact, transform.position, transform.rotation); // store instantiate impact to clone
         Destroy(gameObject);
         Destroy(clone,1.0f); // destroy clone after 1s

@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 65606034974561005}
   - component: {fileID: 65606034974561004}
   - component: {fileID: 65606034974560995}
-  - component: {fileID: 65606034974561006}
   m_Layer: 0
   m_Name: alien_spider
   m_TagString: Untagged
@@ -195,20 +194,6 @@ MonoBehaviour:
   enemyHealth: 100
   deathEffect: {fileID: 6518974615673332605, guid: d2dd2100c2fdb3845964f16bfa81ed32,
     type: 3}
---- !u!114 &65606034974561006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 65606034974560997}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3d6087df6133fd42baadaa6d0e8e5bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theLevelManager: {fileID: 0}
-  damage: 1
 --- !u!1 &65606035156576581
 GameObject:
   m_ObjectHideFlags: 0

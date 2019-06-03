@@ -203,7 +203,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Son:
-
     Ah.. So sleepy.'
 --- !u!222 &152182840
 CanvasRenderer:
@@ -641,7 +640,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Son:
-
     Wish I could play more..'
 --- !u!222 &709033141
 CanvasRenderer:
@@ -808,7 +806,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Dad:
-
     Time for sleeping!'
 --- !u!222 &1000014847
 CanvasRenderer:
@@ -988,7 +985,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Son:
-
     One more round plz.'
 --- !u!222 &1644292790
 CanvasRenderer:
@@ -1089,7 +1085,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Dad:
-
     You played too much.'
 --- !u!222 &1769564176
 CanvasRenderer:

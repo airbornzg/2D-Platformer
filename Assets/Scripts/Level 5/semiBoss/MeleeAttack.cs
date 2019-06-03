@@ -7,7 +7,7 @@ public class MeleeAttack : ISemiBoss
     private SemiBoss semiBoss;
     private float attackTimer; //time of previous shot
     private float attackCD = 1.5f; // time for next fire
-    private bool canAttack = true;
+    public bool canAttack;
     public void Enter(SemiBoss semiBoss)
     {
         this.semiBoss = semiBoss;
@@ -15,27 +15,28 @@ public class MeleeAttack : ISemiBoss
 
     public void Execute()
     {
-        Debug.Log("meleee");
+        Debug.Log("Melee State");
         Attack();
-        if (semiBoss.inShootRange && !semiBoss.inMeleeRange)
+        if (semiBoss.InShootRange && (!semiBoss.InMeleeRange))
         {
-            semiBoss.ChangeState(new RangeState());
             semiBoss.s_anim.SetBool("Melee", false);
+            semiBoss.ChangeState(new RangeState());
         }
-        if (semiBoss.Target == null)
+        else if (semiBoss.Target == null)
         {
+            semiBoss.s_anim.SetBool("Melee", false);
             semiBoss.ChangeState(new IdleState());
         }
     }
 
     public void Exit()
     {
-
+        
     }
 
     public void OnTriggerEnter(Collider2D other)
     {
-      
+        
     }
 
     private void Attack()
@@ -50,16 +51,9 @@ public class MeleeAttack : ISemiBoss
 
         if (canAttack)
         {
+
             canAttack = false;
             semiBoss.s_anim.SetBool("Melee", true);
-            // semiBoss.GetComponent<Rigidbody2D>().velocity = Vector2.zero; // cai nay test sau
-            if (semiBoss.Target.activeSelf)
-            {
-                semiBoss.MeleeAtk();
-            }
-
-            //semiBoss.s_anim.SetFloat("spd", 0);
         }
     }
-
 }

@@ -6,8 +6,8 @@ public class RangeState : ISemiBoss
 {
     private SemiBoss semiBoss;
     private float shootTimer; //time of previous shot
-    private float shootCD = 4.0f; // time for next fire
-    private bool canShoot = true;
+    private float shootCD = 1.0f; // time for next fire
+    public bool canShoot;
     public void Enter(SemiBoss semiBoss)
     {
         this.semiBoss = semiBoss;
@@ -15,16 +15,12 @@ public class RangeState : ISemiBoss
 
     public void Execute()
     {
-        Debug.Log("Range");
+        Debug.Log("Range State");
         Shoot();
-
-        if (semiBoss.inMeleeRange)
-        {
+        if (semiBoss.InMeleeRange) {
             semiBoss.ChangeState(new MeleeAttack());
-        }
-        if (semiBoss.Target != null)
+        }else if (semiBoss.Target != null)
         {
-            semiBoss.s_anim.SetBool("Range", false);
             semiBoss.Movement();
         }
         else {
@@ -51,14 +47,11 @@ public class RangeState : ISemiBoss
         }
 
         if (canShoot) {
+            
             canShoot = false;
             semiBoss.s_anim.SetBool("Range", true);
             // semiBoss.GetComponent<Rigidbody2D>().velocity = Vector2.zero; // cai nay test sau
-           // if (semiBoss.Target.activeSelf) {
-                semiBoss.Attacking();
-           // }
-            
-            semiBoss.s_anim.SetFloat("spd",0);
+            //semiBoss.s_anim.SetFloat("spd",0);
         }
     }
 
