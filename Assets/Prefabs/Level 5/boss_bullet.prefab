@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4908473451210835190}
   m_Layer: 0
   m_Name: boss_bullet
-  m_TagString: Untagged
+  m_TagString: Boss_bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300116, guid: f1436f96040db3d43a959a0c33cc2f5f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -131,3 +131,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2778032cd92a1b4686d11443865de64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 1

@@ -12,6 +12,9 @@ TagManager:
   - Trap
   - MovingPlatform
   - Enemy
+  - S_Melee
+  - Boss
+  - Boss_bullet
   layers:
   - Default
   - TransparentFX
@@ -21,8 +24,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Player
+  - Enemy
   - 
   - 
   - 

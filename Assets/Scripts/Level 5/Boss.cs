@@ -89,13 +89,5 @@ public class Boss : MonoBehaviour
         Destroy(clone, 1.0f);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.tag == "Player")
-        {
-            lvlManager.PlayerDamage5(damage);
-           
-        }
-    }
-  
+   
 }

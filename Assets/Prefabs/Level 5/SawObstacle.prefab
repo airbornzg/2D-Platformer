@@ -71,10 +71,10 @@ GameObject:
   - component: {fileID: 5771679816364846604}
   - component: {fileID: 5771679816364846605}
   - component: {fileID: 5771679816364845552}
-  - component: {fileID: 5771679816364845558}
   - component: {fileID: 5771679816364845555}
   - component: {fileID: 5771679816364845554}
   - component: {fileID: 5771679816364845559}
+  - component: {fileID: 7759681783725782884}
   m_Layer: 0
   m_Name: Saw
   m_TagString: Untagged
@@ -163,20 +163,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5771679816364845558
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5771679816364846606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3d6087df6133fd42baadaa6d0e8e5bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  theLevelManager: {fileID: 0}
-  damage: 1
 --- !u!114 &5771679816364845555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -230,6 +216,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.58839035
+--- !u!114 &7759681783725782884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5771679816364846606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f1b5e3545e06f44c953132875b603cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5771679816434439040
 GameObject:
   m_ObjectHideFlags: 0

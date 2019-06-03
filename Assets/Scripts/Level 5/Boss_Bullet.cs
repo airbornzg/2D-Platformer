@@ -15,6 +15,7 @@ public class Boss_Bullet : MonoBehaviour
 
     void Start()
     {
+        
         rb = GetComponent<Rigidbody2D>();
         target = GameObject.Find("player5");
         if (target.activeSelf) {
@@ -25,14 +26,18 @@ public class Boss_Bullet : MonoBehaviour
         
         Destroy(gameObject, 3f);
     }
-
+    /*
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player") {
-            Debug.Log(collision.name);
-            lvlManager.PlayerDamage5(damage);    
-            Destroy(gameObject);
+
+            if (target != null) {
+                Debug.Log(collision.name);
+                lvlManager.PlayerDamage5(damage);
+                Destroy(gameObject);
+            }
+            
         }
        
-    }
+    } */
 }

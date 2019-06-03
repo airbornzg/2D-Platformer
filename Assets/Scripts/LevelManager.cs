@@ -84,10 +84,12 @@ public class LevelManager : MonoBehaviour
         {
             if (thePlayer != null) {
                 Respawn();
+               
             }
             
             if (thePlayer5 != null) {
                 Respawn5();
+                thePlayer5.player5_render.enabled = true;
             }
             
             respawning = true;

@@ -6,7 +6,6 @@ public class CollisonTrigger : MonoBehaviour
 {
     private BoxCollider2D player5Box;
     private CircleCollider2D player5Circle;
-    private CapsuleCollider2D playerCap;
     [SerializeField]
     private BoxCollider2D platformCollider;
 
