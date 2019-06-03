@@ -13,11 +13,17 @@ public class SemiBoss : MonoBehaviour
     public bool canAttack;
     
     public int bossHealth;
+    private int bossMaxHealth;
     private bool isDeath;
     public GameObject WallLeft; 
     public GameObject WallRight;
     [SerializeField]
+    private Transform leftEdge;
+    [SerializeField]
+    private Transform rightEdge;
+    [SerializeField]
     private EdgeCollider2D meleePoint;
+   
 
     public bool TakingDamage { get; set; }
     public GameObject Target { get; set; }
@@ -53,13 +59,14 @@ public class SemiBoss : MonoBehaviour
     void Start()
     {
         ChangeState(new IdleState()); // set the first state is idle
+        bossMaxHealth = bossHealth;
        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+       
         if (bossHealth <= 0)
         {
             isDeath = true;
@@ -104,10 +111,18 @@ public class SemiBoss : MonoBehaviour
 
     }
     public void Movement() {
-        if (!canAttack) {
-            s_anim.SetFloat("spd", 1);
-            // tell unity to get direction of boss and add move to that direction with given spd
-            transform.Translate(GetDirection() * (moveSpd * Time.deltaTime));
+        if (!canAttack)
+        {
+
+            if ((GetDirection().x > 0 && transform.position.x < rightEdge.position.x) || (GetDirection().x < 0 && transform.position.x > leftEdge.position.x)) {
+                s_anim.SetFloat("spd", 1);
+                // tell unity to get direction of boss and add move to that direction with given spd
+                transform.Translate(GetDirection() * (moveSpd * Time.deltaTime));
+            } else if (currentState is MoveState)
+            {
+                RotateEnemy();
+            }
+          
         }
 
     }
@@ -159,7 +174,7 @@ public class SemiBoss : MonoBehaviour
         {
             s_anim.SetTrigger("Death");
             gameObject.SetActive(false);
-           
+            bossHealth = bossMaxHealth;
         }
     }
 }

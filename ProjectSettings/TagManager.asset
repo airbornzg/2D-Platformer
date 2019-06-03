@@ -15,6 +15,7 @@ TagManager:
   - S_Melee
   - Boss
   - Boss_bullet
+  - playerBullet
   layers:
   - Default
   - TransparentFX

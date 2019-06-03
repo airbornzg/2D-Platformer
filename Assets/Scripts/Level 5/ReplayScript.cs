@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class ReplayScript : MonoBehaviour
 {
-    public Text mText;
-    void Start()
-    {
-        mText.text = PlayerPrefs.GetInt("playerScore").ToString();
+    public void MenuButton() {
+        PlayerPrefs.SetInt("ScoreCount", 0);
+        PlayerPrefs.SetInt("LifeCount", 3);
+        SceneManager.LoadScene(0);
     }
-    private void OnMouseDown()
-    {
-        SceneManager.LoadScene("Menu");
+
+    public void QuitGame() {
+        Application.Quit();
     }
 }

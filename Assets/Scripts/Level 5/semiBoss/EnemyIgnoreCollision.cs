@@ -24,4 +24,9 @@ public class EnemyIgnoreCollision : MonoBehaviour
         Physics2D.IgnoreCollision(GetComponent<Collider2D>(), player5Circle, true);
     }
 
+    private void Update()
+    {
+        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), player5Box, true);
+        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), player5Circle, true);
+    }
 }

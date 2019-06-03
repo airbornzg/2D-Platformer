@@ -24,6 +24,7 @@ public class Boss_Bullet : MonoBehaviour
             lvlManager = FindObjectOfType<LevelManager>();
         }
         
+        
         Destroy(gameObject, 3f);
     }
     /*

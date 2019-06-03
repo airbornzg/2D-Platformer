@@ -5,16 +5,17 @@ using UnityEngine;
 public class MoveState : ISemiBoss
 {
     private float moveTimer;
-    private float moveDuration = 3.0f;
+    private float moveDuration;
     private SemiBoss SemiBoss;
     public void Enter(SemiBoss semiBoss)
     {
+        moveDuration = UnityEngine.Random.Range(1, 10);
         SemiBoss = semiBoss;
     }
 
     public void Execute()
     {
-      Debug.Log("tao move");
+      Debug.Log("I'm move");
         Move();
      
         SemiBoss.Movement();
@@ -31,10 +32,10 @@ public class MoveState : ISemiBoss
 
     public void OnTriggerEnter(Collider2D other)
     {
-        if (other.tag == "Edge") {
+       /* if (other.tag == "Edge") {
             SemiBoss.RotateEnemy();
             
-        }
+        }*/
     }
     private void Move()
     {
