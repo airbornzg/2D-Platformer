@@ -38,7 +38,7 @@ public class LevelManager : MonoBehaviour
 
     //Life
     public int currentLifeNumber;
-    [SerializeField] int startingLifeNumber;
+    public int startingLifeNumber;
     [SerializeField] Text lifeText;
 
     //Game Over
