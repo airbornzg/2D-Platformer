@@ -127,12 +127,12 @@ PrefabInstance:
     - target: {fileID: 8888369694912466825, guid: 452c3ed765e3dee4193b40419c2dfd0a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 42.530003
+      value: 44.44
       objectReference: {fileID: 0}
     - target: {fileID: 8888369694912466825, guid: 452c3ed765e3dee4193b40419c2dfd0a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.181157
+      value: -0.34
       objectReference: {fileID: 0}
     - target: {fileID: 8888369694912466825, guid: 452c3ed765e3dee4193b40419c2dfd0a,
         type: 3}
@@ -5610,6 +5610,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8736991426785841742, guid: c5970f8945ff7de418203506487eaf40,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300008, guid: d076654600055cd419328ada3d843f05,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c5970f8945ff7de418203506487eaf40, type: 3}
 --- !u!4 &1802840121 stripped
@@ -5790,6 +5796,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bat Monster (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.14
+      objectReference: {fileID: 0}
     - target: {fileID: 654541999188294278, guid: 66020d8d002b9b346a272794c81ac861,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5854,16 +5870,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.14
       objectReference: {fileID: 0}
     - target: {fileID: 654541997651672805, guid: 66020d8d002b9b346a272794c81ac861,
         type: 3}
@@ -6997,6 +7003,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bat Monster (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.14
+      objectReference: {fileID: 0}
     - target: {fileID: 654541999188294278, guid: 66020d8d002b9b346a272794c81ac861,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7061,16 +7077,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.14
       objectReference: {fileID: 0}
     - target: {fileID: 654541997651672805, guid: 66020d8d002b9b346a272794c81ac861,
         type: 3}
@@ -7550,7 +7556,7 @@ PrefabInstance:
     - target: {fileID: 983677535970344572, guid: 68da0f6625644fd4698d51e79f8bf5a2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.85
+      value: 4.18
       objectReference: {fileID: 0}
     - target: {fileID: 983677535970344572, guid: 68da0f6625644fd4698d51e79f8bf5a2,
         type: 3}
@@ -7611,26 +7617,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
-      propertyPath: m_Color.r
-      value: 0.5754717
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
-      propertyPath: m_Color.g
-      value: 0.5142626
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
-      propertyPath: m_Color.b
-      value: 0.23616058
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 27
-      objectReference: {fileID: 0}
-    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3997954332564925119, guid: 28f8c43117f284035a306a000b99f546,
         type: 3}
       propertyPath: m_Color.r
@@ -7665,6 +7651,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_RichText
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5142626
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
+      propertyPath: m_Color.b
+      value: 0.23616058
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 2096581584, guid: 28f8c43117f284035a306a000b99f546, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3997954332743706949, guid: 28f8c43117f284035a306a000b99f546,
         type: 3}
@@ -7908,6 +7914,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bat Monster
       objectReference: {fileID: 0}
+    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.54
+      objectReference: {fileID: 0}
     - target: {fileID: 654541999188294278, guid: 66020d8d002b9b346a272794c81ac861,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7972,16 +7988,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.54
       objectReference: {fileID: 0}
     - target: {fileID: 654541997651672805, guid: 66020d8d002b9b346a272794c81ac861,
         type: 3}
