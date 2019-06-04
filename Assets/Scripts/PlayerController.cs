@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour
 
     public bool canMove;
 
+
     private bool isGrounded = false;
 
     private int killPlayerDamage;
