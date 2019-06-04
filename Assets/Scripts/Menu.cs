@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Menu : MonoBehaviour
 {
 
-    [SerializeField] string tutorialLevel;
+    [SerializeField] string startAnimation;
     [SerializeField] string continueLevel;
     [SerializeField] string levelSelection;
 
@@ -26,7 +26,7 @@ public class Menu : MonoBehaviour
 
     public void NewGame()
     {
-        SceneManager.LoadScene(tutorialLevel);
+        SceneManager.LoadScene(startAnimation);
 
         PlayerPrefs.SetInt("ScoreCount", 0);
         PlayerPrefs.SetInt("LifeCount", startingLifeNumber);

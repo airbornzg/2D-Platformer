@@ -721,7 +721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4fc121255677c44da4d48fb1955e4e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tutorialLevel: Tutorial Level
+  startAnimation: Starting animation
   continueLevel: 
   levelSelection: Level Selection
   startingLifeNumber: 3
