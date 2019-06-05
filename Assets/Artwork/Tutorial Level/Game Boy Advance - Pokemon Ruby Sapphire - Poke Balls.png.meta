@@ -1,0 +1,498 @@
+fileFormatVersion: 2
+guid: 739820cefe8fa4945811dc5065c217fa
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_0
+    21300002: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_1
+    21300004: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_2
+    21300006: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_3
+    21300008: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_4
+    21300010: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_5
+    21300012: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_6
+    21300014: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_7
+    21300016: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_8
+    21300018: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_9
+    21300020: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_10
+    21300022: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_11
+    21300024: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_12
+    21300026: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_13
+    21300028: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_14
+    21300030: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_15
+    21300032: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_16
+    21300034: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_17
+    21300036: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_18
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ef41eb3594e4b1bb9bccef700d770f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7c6fe7c8f8b4facbdcf3f34876e285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbe79956bc8544e4bd4e249dff766a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_3
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9b6f29188ac4e089af6c7173928f51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02046fe2dd7bc47f99ec8251d041aadc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 37
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc39077fa5fa64f8b8bb528d58262bec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_6
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a9935aa41e742ef898b71265690b89
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bcf03a254e334ce5b580e2967bbb43d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9487beeab6a461bb99c0d3e9286641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd623aaf87ef4a6887c961a4a6fe763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_10
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b90abc78d394cbb829ab846058cdbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_11
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d7a2bdbb0f94898bad36cee8598e03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 20
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2f55f51574c49aa9df246d916968c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720c7dc90109a42c4b50265bd475a81e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 4
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6185f2a1ad4ad48c58142a1c1a469178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87bcde72061f4a6f81bcf881465c285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_16
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a17c6601dd7d4e0488a91726940c337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_17
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffa76a23c6a7a42c1bd11bfe5b5120b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Poke Balls_18
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 0
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd3f882437b24b25829954ac3cb570d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fad0837104a92410b94ee9edaf281449
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
