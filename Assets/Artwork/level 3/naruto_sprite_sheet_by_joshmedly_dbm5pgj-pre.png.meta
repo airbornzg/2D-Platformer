@@ -1,0 +1,2199 @@
+fileFormatVersion: 2
+guid: 09742442d474a4f85897d000d32d2e64
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_0
+    21300002: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_1
+    21300004: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_2
+    21300006: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_3
+    21300008: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_4
+    21300010: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_5
+    21300012: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_6
+    21300014: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_7
+    21300016: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_8
+    21300018: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_9
+    21300020: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_10
+    21300022: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_11
+    21300024: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_12
+    21300026: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_13
+    21300028: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_14
+    21300030: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_15
+    21300032: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_16
+    21300034: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_17
+    21300036: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_18
+    21300038: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_19
+    21300040: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_20
+    21300042: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_21
+    21300044: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_22
+    21300046: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_23
+    21300048: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_24
+    21300050: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_25
+    21300052: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_26
+    21300054: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_27
+    21300056: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_28
+    21300058: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_29
+    21300060: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_30
+    21300062: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_31
+    21300064: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_32
+    21300066: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_33
+    21300068: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_34
+    21300070: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_35
+    21300072: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_36
+    21300074: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_37
+    21300076: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_38
+    21300078: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_39
+    21300080: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_40
+    21300082: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_41
+    21300084: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_42
+    21300086: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_43
+    21300088: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_44
+    21300090: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_45
+    21300092: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_46
+    21300094: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_47
+    21300096: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_48
+    21300098: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_49
+    21300100: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_50
+    21300102: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_51
+    21300104: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_52
+    21300106: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_53
+    21300108: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_54
+    21300110: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_55
+    21300112: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_56
+    21300114: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_57
+    21300116: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_58
+    21300118: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_59
+    21300120: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_60
+    21300122: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_61
+    21300124: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_62
+    21300126: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_63
+    21300128: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_64
+    21300130: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_65
+    21300132: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_66
+    21300134: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_67
+    21300136: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_68
+    21300138: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_69
+    21300140: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_70
+    21300142: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_71
+    21300144: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_72
+    21300146: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_73
+    21300148: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_74
+    21300150: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_75
+    21300152: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_76
+    21300154: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_77
+    21300156: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_78
+    21300158: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_79
+    21300160: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_80
+    21300162: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_81
+    21300164: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_82
+    21300166: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_83
+    21300168: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_84
+    21300170: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_85
+    21300172: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_86
+    21300174: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_87
+    21300176: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_88
+    21300178: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_89
+    21300180: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_90
+    21300182: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_91
+    21300184: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_92
+    21300186: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_93
+    21300188: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_94
+    21300190: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_95
+    21300192: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_96
+    21300194: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_97
+    21300196: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_98
+    21300198: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_99
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 772
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb175938892044981967f789a5a8be84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 772
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d150961f1404990826c4b648a6f622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_2
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 772
+        width: 45
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d4cb7d247774d0cb38d6ecfca0bc7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 777
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310395f3b8e284950888b9ddde382ef8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 773
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdf266e6b31e4305af144e30998f69d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 772
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec6a59927c9e497eafc9b68a6d04854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 773
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66fccd71dddb482b8905f4a8f5e0f31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_7
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 766
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670f9565966ee4c22acf099047b61a07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_8
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 767
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902317d5535a54e6c891e087849c49f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_9
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 742
+        width: 72
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ff66f37dfbd4dc7abf02da86e8e5da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 696
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ec31129d502414381980389485fac0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 698
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37803ebbf247c4113b53597613c49ab6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 698
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539f29a3e723b46118640e48f1a8ccda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 696
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cad828acf8045a4ab2ab8c7511280d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 710
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d092ecde86d4c10a003be10d42f812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_15
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 627
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea7650d7beccc48f0a19a6bdb49ba6cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 629
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d25245e63f046abb62af6e71602f43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_17
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 629
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a266d4ef9b374690af22924f5a6caac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_18
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 628
+        width: 75
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445147d9881ca48ffae4a07e4da146f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_19
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 627
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61486a40f547044548890d4970b6266d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_20
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 630
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df6fe92a65a942e49f25ce7925f9b42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_21
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 630
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052c4d1b591ff4cedb9a0f1aee324959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_22
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 630
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a4f832be2f0403a9a9c0eaae88cf94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_23
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 628
+        width: 53
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1821e49d405ed4410a8a22878ad2d0d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_24
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 561
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38eebdaf157af4147a2084fcf880ae31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 557
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb165fcdef5e6471d942f9f2bd3d901e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_26
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 555
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0871b7866b64f21b11b9e1dd9a6e1d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_27
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 543
+        width: 44
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034e83f6b5235448aaf0d94cd8e27fe9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_28
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 545
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a59f3064a9d4568ba909fdebccef0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_29
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 543
+        width: 33
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6377c4771a2e544acb0b702fce7baeec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_30
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 546
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cff3f6b6226438bb72e1bc7223c3b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_31
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 545
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0473e51b376ba444ea33e6f2b849c56a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_32
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 548
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fcb312585164254b9e7e4c7339127d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_33
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 548
+        width: 67
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e765af69e3f4977a8fa0af7b03d1bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_34
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 462
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8525770ecd684dd2940e5fb3bb8149a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_35
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 462
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6750da6ae060e47e888fa0127ea6d4c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_36
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 473
+        width: 42
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6834a89f952fe4d25afff1fd7e237276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_37
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 474
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f03d1f99ea440149725f678d44210e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 467
+        width: 25
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ffd60ea77ed40ce8b6edb115843218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_39
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 469
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0600f73d0ae4f468909860041664b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_40
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 467
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2145651a44459441889c38a3c67a6fd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_41
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 477
+        width: 72
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3181948ba374d7b8577c1b3e5e3159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_42
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 409
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86819d80e06c140fabe4412671948b40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_43
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 410
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9aaf5af3e244b548e76cb5314f574e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_44
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 410
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b68be4cc721479ea83874a7f0aed31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_45
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 413
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee588cd27b1f45f59eb09d93758cf60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_46
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 413
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814ccd992138b4bf5a0da8597497f65c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_47
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 416
+        width: 39
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3c0cfbf7c35f49bb8ac3adb3e4c430e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_48
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 416
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243d4265760454e4f84f6cc8b8843663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_49
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 414
+        width: 67
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ed3c563ff7c4a57ac40b03de013c04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_50
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 416
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c563e1cc102614d1c91832fc746f1da3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_51
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 415
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8a410b771ee4593be388d2c90aa664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_52
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 413
+        width: 75
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a361710d85dc24791a20fb96415b848d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_53
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 412
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8ae55ceaee6457191eae35fb128660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_54
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 417
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f755b10913087421eaf27bb10e22d1ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_55
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 417
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726ec1302e69241c68f4317772e945a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_56
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 416
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3f7f921497a46c5969be1a2d750eaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_57
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 412
+        width: 75
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a585a007fe62b4b55923d528697684ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_58
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 412
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5ff592d174147ca874f5726b94fa59
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_59
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 416
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86217afec2f846f59af01a8d02ff350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_60
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 380
+        width: 47
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff856d14638c94eb0bda775a1cfdfeb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 398
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79435bcb0a82d41af8cc6d4d15a075a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 375
+        width: 81
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bc34c137f7e4f539faae7500cf8690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_63
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 398
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4df0f9b4f4b448ab7f844d0a734a5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_64
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 378
+        width: 82
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db15df33fa7f1449fbbf0000e432c320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_65
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 334
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16d46f9eb7e6d46bea8c72dae510b7b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_66
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 320
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec018effe6de454380cfbba6aa00441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_67
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 320
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a063b3542917149a39034d99d990a0db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_68
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 320
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a1dac93fc72d465ea843aa21d6b17a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_69
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 350
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77977ab869f6e4d4298fee1791679a03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_70
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 319
+        width: 79
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41bddeae145904d52a1afca9606332a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_71
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 319
+        width: 93
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856c5917e41a64f8284cd00888326430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_72
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 322
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b790d68b322ad4fc4884628feb383838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_73
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 312
+        width: 264
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3e1b25e7cb1d4be5873e773fb820b00
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_74
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 260
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cab354f9cc74174b860288e1a39d65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_75
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 260
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5726d9c9ad644f1d88c3d33e8fde445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_76
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 259
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd167ac44c494e7eb19ff4fdf76802f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_77
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 258
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b0d5368014b4049b4614a40a7b9ec0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_78
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 208
+        width: 152
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f088252cdba50452685853a5d4bbd810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_79
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 206
+        width: 152
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaf37be615ad431bb0591c56e0185d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_80
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 151
+        width: 149
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5bdf811b5d2457fa8c16ae83d78855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_81
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 119
+        width: 75
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dad15a5efac9488f8d5fcd020c2e929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_82
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 119
+        width: 88
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185d1bdd82f554980a26a6bfd1fd5800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_83
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 143
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e11b78f717e486190ff45d813f4f3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_84
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 115
+        width: 91
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29c167b7d4cc8444689cfd70f1ecbca6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_85
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 83
+        width: 101
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e781a5a5b8fd1418b85b36d5731ad799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_86
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 118
+        width: 94
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dead8bcded5b34c9cae63e8db57facf0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_87
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 86
+        width: 70
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b48c4f9ed1e94747ac1755d36f2e853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_88
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 91
+        width: 167
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f06050f9c1d84e78a05b73ea6c5d2b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_89
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 34
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce4f270a85e845c9a5db22bb8b1f39d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_90
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 36
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b163058a3a9240f4b912f7ce5d269cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_91
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 39
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d643be0931e0b41c8a5d46aa1a3ded52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_92
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 38
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a303994c31d748c2b2f9c83e26f302f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_93
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 39
+        width: 74
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00bbfbd117d2400eb938e1b582e3570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_94
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 53
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3ef9ab8df8941f9ac86c730204fcab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_95
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 66
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7954861425d8f4ac88cdc7f1ef2a75e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_96
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 66
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c23a570ba244695af1b71a770019c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_97
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fc2f8d7f1c54b9785e3801b3b9af53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_98
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 43
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d513db4048c6647009cb3879ef08ccc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: naruto_sprite_sheet_by_joshmedly_dbm5pgj-pre_99
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 33
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5500ca0391424c3c83f865a322ddcb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 842378e811dbc41589f31e6962124b4b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
