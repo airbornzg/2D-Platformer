@@ -5253,7 +5253,7 @@ PrefabInstance:
     - target: {fileID: 7373470089890408156, guid: cd6679554298ff243890aab5af5796a0,
         type: 3}
       propertyPath: m_Name
-      value: End Level 1 Checkpoint
+      value: End Level Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 7373470089890408153, guid: cd6679554298ff243890aab5af5796a0,
         type: 3}

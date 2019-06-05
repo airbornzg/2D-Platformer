@@ -1,0 +1,2493 @@
+fileFormatVersion: 2
+guid: bd2b5f139859b4f42a6b373b3efc63e2
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_0
+    21300002: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_1
+    21300004: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_2
+    21300006: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_3
+    21300008: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_4
+    21300010: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_5
+    21300012: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_6
+    21300014: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_7
+    21300016: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_8
+    21300018: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_9
+    21300020: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_10
+    21300022: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_11
+    21300024: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_12
+    21300026: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_13
+    21300028: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_14
+    21300030: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_15
+    21300032: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_16
+    21300034: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_17
+    21300036: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_18
+    21300038: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_19
+    21300040: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_20
+    21300042: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_21
+    21300044: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_22
+    21300046: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_23
+    21300048: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_24
+    21300050: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_25
+    21300052: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_26
+    21300054: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_27
+    21300056: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_28
+    21300058: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_29
+    21300060: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_30
+    21300062: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_31
+    21300064: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_32
+    21300066: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_33
+    21300068: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_34
+    21300070: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_35
+    21300072: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_36
+    21300074: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_37
+    21300076: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_38
+    21300078: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_39
+    21300080: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_40
+    21300082: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_41
+    21300084: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_42
+    21300086: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_43
+    21300088: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_44
+    21300090: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_45
+    21300092: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_46
+    21300094: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_47
+    21300096: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_48
+    21300098: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_49
+    21300100: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_50
+    21300102: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_51
+    21300104: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_52
+    21300106: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_53
+    21300108: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_54
+    21300110: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_55
+    21300112: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_56
+    21300114: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_57
+    21300116: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_58
+    21300118: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_59
+    21300120: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_60
+    21300122: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_61
+    21300124: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_62
+    21300126: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_63
+    21300128: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_64
+    21300130: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_65
+    21300132: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_66
+    21300134: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_67
+    21300136: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_68
+    21300138: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_69
+    21300140: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_70
+    21300142: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_71
+    21300144: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_72
+    21300146: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_73
+    21300148: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_74
+    21300150: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_75
+    21300152: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_76
+    21300154: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_77
+    21300156: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_78
+    21300158: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_79
+    21300160: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_80
+    21300162: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_81
+    21300164: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_82
+    21300166: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_83
+    21300168: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_84
+    21300170: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_85
+    21300172: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_86
+    21300174: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_87
+    21300176: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_88
+    21300178: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_89
+    21300180: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_90
+    21300182: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_91
+    21300184: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_92
+    21300186: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_93
+    21300188: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_94
+    21300190: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_95
+    21300192: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_96
+    21300194: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_97
+    21300196: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_98
+    21300198: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_99
+    21300200: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_100
+    21300202: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_101
+    21300204: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_102
+    21300206: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_103
+    21300208: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_104
+    21300210: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_105
+    21300212: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_106
+    21300214: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_107
+    21300216: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_108
+    21300218: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_109
+    21300220: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_110
+    21300222: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_111
+    21300224: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_112
+    21300226: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_113
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 442
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a32b81155e254deea42ef6e4afa152d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 442
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6affd099c71474a8347f96196e5236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 442
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a7755fe3f7d47eab405c69202076a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 442
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14ebf71b0837486c8f4748f55d9f25d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 441
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29782a6a5307b452cb04a89d830b1ded
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 441
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99935f5e4ad484a54937de2fd48a3582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 440
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d145930a65094c6597bc657d922ae12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_7
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 440
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668c84b732c93484e9399c9cb895c5c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 440
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3378f57c7f3064732ae3628f14d42477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_9
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 441
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014e0c7fdb1f245e0a45f95183f91e18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_10
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 441
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791eecfd1de7c4ef889439be91a8cab8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_11
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 441
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4d19a56d1494b46bcde24792104b6a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 412
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fabf1e7b5944993b4576f442cbacc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_13
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 412
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f29237a83be4e75bb801dc999318a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 412
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88296878aee984e6792af15c9ee9a896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_15
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 412
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb281a9869d647d7a89e1f51b459028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_16
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 412
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59395295638f74eeea9883da0df9b041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_17
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 412
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8becbea5064a341ea8fbc289845295e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_18
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 412
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1070b18740f4fdaa8046d769583c44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_19
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 412
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b45f9be062344f8a6746e64ebde136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 412
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe651b205b9142ce83f843d86369c4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_21
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 412
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f632071d4c7d4d2583bd0c6f03f1328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_22
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 412
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff0de05f8b0b467ca8dcc5e6970a16b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_23
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 412
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4e0254547964c43a56898ffcce2b9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_24
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 383
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dede7ad29c0b14570b5e21d0413ac5f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 383
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72214f7feb4648f48842de1a888d3e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_26
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 383
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc642c82944be4753a6a2758a2f4d5f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_27
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 383
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3355ab35f554e38bc263e98a2953be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_28
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 383
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75170a8a08b347928ef364067001b49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_29
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 383
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a847fde066e418abff6a8ac17878bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_30
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 383
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d006cba983c4184857c26e0b5bafe6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_31
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 383
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57dbc6d40c0524dc89e0a24a491203aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 383
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5f7adb35b2747999fdaa3cdac50af2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_33
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 383
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861214c10a6464decbbdd184233c1c2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_34
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 383
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b915446cc53467ca7dbfc91fa48c16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_35
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 383
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b959e9ee3134f46be926c03cc407c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 355
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61b2c1c8e90747ad8a780f9dc83b952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_37
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 354
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406cb1c98aeb44b6993229f5c3210ebe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_38
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 354
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c913361dde2453aa0bb2ee25d98f90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_39
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 354
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0834dcfc325ab45a1a9409da59241f11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_40
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 354
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1bb002234e34162a9683c41a027652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_41
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 354
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc37732bbdab44b998b6d8677860c76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_42
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 354
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbcf39861ba04c7ab88ab7c36618534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_43
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 354
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e55f233086504807910320ce0366946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 321
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e406df23838493cbe7062ef6412150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_45
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 321
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39027467db6d4dcdbc181774f9409ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_46
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 321
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d71a48615a2444e38fa05a999a24b83
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_47
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 320
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e55c5b1f5af24317aecccb15991e022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_48
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 320
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6214334ae8b1a4f50935b2bfe45edc6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_49
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 320
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333c7fe3aa0194befbff31c3da7af64d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_50
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 320
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fae3206bb2894505a4cf7fc9465239f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_51
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 320
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17c4d6045dca47fda9df4bdc55ca8b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cfd755f68a642cbacee25a32ea43be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_53
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 319
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6314be279c4554c15aba12341f2b9c10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_54
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 319
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4db21851136644619b6751a19d147d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_55
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 319
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7a0959cb62e4b9daff0864bf9f6d91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_56
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 290
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1805b8a9162d14f688f8c35b71a966d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_57
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 289
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2888f4081be41508f9bc40f86a9030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_58
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 289
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca4e167c7f5c4b32897a71054c0b054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_59
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 289
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5761d8bdee447a2b62be116b775919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_60
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 252
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5eda4dfffc4413eb149b58d94b6502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_61
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 250
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fc21fe76a2b4dd8ae0377095708408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_62
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 250
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63fcbcbbd6914551b05a9dc8d9ddbba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_63
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 250
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198a6ba1df51642d48d39f6333d96fdd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_64
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 250
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24eab43d5af9a4e04807ff88f18c3032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_65
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 250
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648661ffc16544e878f19b419b25e7a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_66
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 250
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab0feaf08b3a4d96b659cf2c88f2fb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_67
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 250
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405680b898196421c818397944e52f5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_68
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 250
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed7d62361478494ab800f8c3e099ba7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_69
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 203
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51d4c1b06c314df795b09968515ed3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_70
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 203
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad74444d893824e8b91c73595fb91198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_71
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 203
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1581fb7e97e5a4a7c99e4560eefa98cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_72
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 202
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3432bd0bf6d416aa820b560289891f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_73
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 201
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1af61fb5e674ff99094b9e6c49cbc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_74
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 201
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9139e96aa5e944a188e39849ddc23ca4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 201
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2134fcc726004b729b4937428ce3d95
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_76
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 201
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36a06a5b89ef4dc0b3b1a16a4e459a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_77
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 164
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86348167ca0054567816841a39930799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_78
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 164
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c855fd712f74c608d63b601b9346d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_79
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 164
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f38f64083d04c2fa4e93d5d4690919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_80
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 164
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40ea1eb798814e85ac08178dfc2de2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_81
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 164
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa08a6675d154602b687f19f8d5befa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_82
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 164
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e346fbba28e7427da27ecb531895a5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_83
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 163
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32339a5c8a82845138ddb1173c31fa0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_84
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 163
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344990fa18d234cc0bd80f554675ae21
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_85
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39fa130ff8f149b18dea0f727be83de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_86
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 128
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09207f1e52cf44562bea290f6a6cdaa5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_87
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 128
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dcf543423994713928ac512970180d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_88
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 128
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36636fc706fd54ee09d4de1fdb8a11b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_89
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 128
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acd41c23fdb842f8aa27f66c7a675e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_90
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 127
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab669aeb442534e9a8454c211c2a5ddb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_91
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 125
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43dc7de9bf3934db8a2614e9ece4bfe0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_92
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 125
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49569a8ffe67b473f92c54e314ffa781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_93
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 125
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906b2b4525e674015af0813587f9f50c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_94
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 96
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38fa6e7fe44f4af9a2c79f5b20da997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_95
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 96
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc25b74fdd9e454abb6cfd733ee8c4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_96
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 96
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397b92a5a889d4a358bd3378a9a9e6f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_97
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 96
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2839a891ff77c4557affeefee08c1634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_98
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 96
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e92228b64cc43ea89bee99abd2da07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_99
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 96
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21d947fb6f3242c984a19e9962a3c30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_100
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 96
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441bda10435474effb25a41054b45813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_101
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 95
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c79873fe3e804595ab6fa87df82a7f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_102
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 94
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2626724cd38e4c9b8f43c938de85bd3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_103
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 94
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b88370589fb94a7583d03afbde2ca9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_104
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 71
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4c0f38e7f174198a187c9e6ee291bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_105
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 72
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcd7b3049fc9402589eaf6a5e8ebe34
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_106
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 72
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1eb17ce6c49442b096e960de39e230d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_107
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 72
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17ae5f26d27c457e8a5c3ac3bc93b70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_108
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 70
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c237074be8443adb29056b20b48be2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_109
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 4
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0b0133832c6477dbfa553030569d66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_110
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 4
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e31a21cdad64254a21b63926bdd917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_111
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 4
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd8883b6fac24847ba257d04c753a4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_112
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 3
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527775e0c5749430dbba53da53d3d2a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Boy Advance - Pokemon Ruby Sapphire - Brendan_113
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27568627b4dd54150be1c8710167264f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b2d4477abd9704b9a88e9b9766bb9235
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
