@@ -15,6 +15,7 @@ public class TutorialTextController : MonoBehaviour
     {
         dreamText = GameObject.Find("Dream").GetComponent<Text>();
         StartCoroutine(RemoveAfterSeconds(5, dreamText));
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
