@@ -5,6 +5,8 @@ using UnityEngine;
 public class TutorialPlayerController : MonoBehaviour
 {
     private Animator myAnim;
+    public Transform firePoint;
+    public GameObject bullet;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +18,7 @@ public class TutorialPlayerController : MonoBehaviour
     void Update()
     {
         PlayerCrouch();
+        PlayerShot();
     }
 
     private void PlayerCrouch()
@@ -27,6 +30,18 @@ public class TutorialPlayerController : MonoBehaviour
         else if (Input.GetButtonUp("Crouch"))
         {
             myAnim.SetBool("Crouched", false);
+        }
+    }
+
+    private void PlayerShot()
+    {
+        if (Input.GetButtonDown("Fire1")) {
+            myAnim.SetBool("Shot", true);
+            Instantiate(bullet, firePoint.position, firePoint.rotation);
+        }
+        else
+        {
+            myAnim.SetBool("Shot", false);
         }
     }
 }
