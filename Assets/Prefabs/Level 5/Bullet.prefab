@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 1921025696854507408}
   - component: {fileID: 6772442942936210203}
   - component: {fileID: 6877388687988724883}
-  m_Layer: 0
+  - component: {fileID: 1739533608319906453}
+  m_Layer: 10
   m_Name: Bullet
   m_TagString: playerBullet
   m_Icon: {fileID: 0}
@@ -70,7 +71,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -246119523
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 6b777624f1ead4ffaa0034c42e5d25e5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -135,3 +136,15 @@ MonoBehaviour:
   rb: {fileID: 1921025696854507408}
   damage: 40
   impact: {fileID: 3147270732956082855, guid: 17f426562f756c44e892db2edc5dc62c, type: 3}
+--- !u!114 &1739533608319906453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6758717880600339629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f2e0873d0d3f44ebae5bc25debc372, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
