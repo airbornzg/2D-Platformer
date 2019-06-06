@@ -23,7 +23,7 @@ public class TutorialTextController : MonoBehaviour
         textfield.text = text;
     }
 
-    IEnumerator RemoveAfterSeconds(int seconds, Text obj)
+    private IEnumerator RemoveAfterSeconds(int seconds, Text obj)
     {
         yield return new WaitForSeconds(seconds);
         obj.gameObject.SetActive(false);

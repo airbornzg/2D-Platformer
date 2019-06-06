@@ -249,7 +249,7 @@ public class LevelManager : MonoBehaviour
 
         if (monster != null)
         {
-            theMonster.SetupStoredPositions();
+            theMonster.SetupStoredPositions(80);
             monster.gameObject.SetActive(true);
         }
     }
