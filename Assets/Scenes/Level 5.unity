@@ -5768,10 +5768,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1065303636, guid: 27e16aab0c6ee2e45912f7d5e9511cbb, type: 3}
-      propertyPath: m_Volume
-      value: 0.2
-      objectReference: {fileID: 0}
     - target: {fileID: 1292249739, guid: 27e16aab0c6ee2e45912f7d5e9511cbb, type: 3}
       propertyPath: m_audioClip
       value: 
@@ -5779,6 +5775,10 @@ PrefabInstance:
     - target: {fileID: 1292249739, guid: 27e16aab0c6ee2e45912f7d5e9511cbb, type: 3}
       propertyPath: m_Volume
       value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1065303636, guid: 27e16aab0c6ee2e45912f7d5e9511cbb, type: 3}
+      propertyPath: m_Volume
+      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27e16aab0c6ee2e45912f7d5e9511cbb, type: 3}
@@ -6042,6 +6042,26 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 4435996550537179355, guid: e2d03eaa35ef62c4988f84b11d3abeb0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4435996550328489672, guid: e2d03eaa35ef62c4988f84b11d3abeb0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4435996550537179358, guid: e2d03eaa35ef62c4988f84b11d3abeb0,
+        type: 3}
+      propertyPath: bossHealth
+      value: 6000
+      objectReference: {fileID: 0}
+    - target: {fileID: 4435996551868017757, guid: e2d03eaa35ef62c4988f84b11d3abeb0,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2d03eaa35ef62c4988f84b11d3abeb0, type: 3}
 --- !u!1001 &5212909279878628517
@@ -6210,6 +6230,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: S_Boss_holder
       objectReference: {fileID: 0}
+    - target: {fileID: 6592306974163883500, guid: a9d6d5a282a93c34b856ea09b072f651,
+        type: 3}
+      propertyPath: m_TagString
+      value: Boss
+      objectReference: {fileID: 0}
     - target: {fileID: 6592306973117447487, guid: a9d6d5a282a93c34b856ea09b072f651,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6275,6 +6300,11 @@ PrefabInstance:
       propertyPath: WallRight
       value: 
       objectReference: {fileID: 817403329}
+    - target: {fileID: 6592306974163883488, guid: a9d6d5a282a93c34b856ea09b072f651,
+        type: 3}
+      propertyPath: bossHealth
+      value: 4000
+      objectReference: {fileID: 0}
     - target: {fileID: 6592306973974863070, guid: a9d6d5a282a93c34b856ea09b072f651,
         type: 3}
       propertyPath: m_Layer

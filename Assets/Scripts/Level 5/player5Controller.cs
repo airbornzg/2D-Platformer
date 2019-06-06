@@ -177,6 +177,24 @@ public class player5Controller : MonoBehaviour
                 }
             }
         }
+        if (collision.tag == "Boss")
+        {
+            if (!immortal)
+            {
+                if (!isDeath)
+                {
+                    lvlManager.PlayerDamage5(enemyDamage);
+                    immortal = true;
+                    StartCoroutine(IndicateImmortal());
+                    Invoke("notImmortal", immortalTime);
+                }
+                else
+                {
+                    lvlManager.Respawn5();
+                }
+            }
+        }
+
         if (collision.tag == "Boss_bullet") {
             if (gameObject.activeSelf) {
                 if (!immortal)
