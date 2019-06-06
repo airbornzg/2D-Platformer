@@ -6176,7 +6176,7 @@ PrefabInstance:
     - target: {fileID: 8416714103723728096, guid: a0677b41d61d84003b261d7e03208f5b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 32.44
+      value: 31.509998
       objectReference: {fileID: 0}
     - target: {fileID: 8416714103723728096, guid: a0677b41d61d84003b261d7e03208f5b,
         type: 3}
@@ -6753,7 +6753,7 @@ PrefabInstance:
     - target: {fileID: 5950277153852860535, guid: d2aeea95bd8507f4180b2d4a7b94af5c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.31
+      value: 29.53
       objectReference: {fileID: 0}
     - target: {fileID: 5950277153852860535, guid: d2aeea95bd8507f4180b2d4a7b94af5c,
         type: 3}
@@ -12505,10 +12505,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: Big Monster
       objectReference: {fileID: 0}
+    - target: {fileID: 983677535970344569, guid: 68da0f6625644fd4698d51e79f8bf5a2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 983677535970344572, guid: 68da0f6625644fd4698d51e79f8bf5a2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 32.47
+      value: 31.481
       objectReference: {fileID: 0}
     - target: {fileID: 983677535970344572, guid: 68da0f6625644fd4698d51e79f8bf5a2,
         type: 3}
@@ -12559,6 +12564,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 983677535970344568, guid: 68da0f6625644fd4698d51e79f8bf5a2,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.13059652
+      objectReference: {fileID: 0}
+    - target: {fileID: 983677535970344568, guid: 68da0f6625644fd4698d51e79f8bf5a2,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.19911122
+      objectReference: {fileID: 0}
+    - target: {fileID: 983677535970344568, guid: 68da0f6625644fd4698d51e79f8bf5a2,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.65463793
+      objectReference: {fileID: 0}
+    - target: {fileID: 983677535970344568, guid: 68da0f6625644fd4698d51e79f8bf5a2,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.2993145
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68da0f6625644fd4698d51e79f8bf5a2, type: 3}
