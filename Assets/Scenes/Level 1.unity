@@ -4240,12 +4240,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 876578286}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &906943203 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
-    type: 3}
-  m_PrefabInstance: {fileID: 4726659472425531026}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &911659146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4520,28 +4514,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 922547208}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &972057243 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 654541998543633180, guid: 66020d8d002b9b346a272794c81ac861,
-    type: 3}
-  m_PrefabInstance: {fileID: 4726659472425531026}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &972057248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 972057243}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d78b9c1dd2bf8b4b824e5af27d801e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectToMove: {fileID: 972057243}
-  startPoint: {fileID: 906943203}
-  endPoint: {fileID: 1510754142}
-  moveSpeed: 3
 --- !u!1001 &1006579626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8018,12 +7990,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5950277153852860535, guid: d2aeea95bd8507f4180b2d4a7b94af5c,
     type: 3}
   m_PrefabInstance: {fileID: 1478082412}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1510754142 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 654541997651672802, guid: 66020d8d002b9b346a272794c81ac861,
-    type: 3}
-  m_PrefabInstance: {fileID: 4726659472425531026}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1532446172
 PrefabInstance:
@@ -12766,16 +12732,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bat Monster
       objectReference: {fileID: 0}
-    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 654541997909019244, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.54
-      objectReference: {fileID: 0}
     - target: {fileID: 654541999188294278, guid: 66020d8d002b9b346a272794c81ac861,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12831,33 +12787,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 654541997651672802, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 654541998543633181, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 654541997651672805, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_Name
-      value: Down Point
-      objectReference: {fileID: 0}
-    - target: {fileID: 654541997909019247, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_Name
-      value: Up Point
-      objectReference: {fileID: 0}
-    - target: {fileID: 654541998543633178, guid: 66020d8d002b9b346a272794c81ac861,
-        type: 3}
-      propertyPath: m_GravityScale
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 654541998543633191, guid: 66020d8d002b9b346a272794c81ac861, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66020d8d002b9b346a272794c81ac861, type: 3}
 --- !u!1001 &5212909279878628517
 PrefabInstance:
