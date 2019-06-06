@@ -2640,6 +2640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 399629948, guid: 28f8c43117f284035a306a000b99f546, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3997954332743706949, guid: 28f8c43117f284035a306a000b99f546,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3080,6 +3084,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1630741802}
     m_Modifications:
+    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
+        type: 3}
+      propertyPath: m_Name
+      value: Check Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 8416714103723728096, guid: a0677b41d61d84003b261d7e03208f5b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3134,16 +3148,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
-        type: 3}
-      propertyPath: m_Name
-      value: Check Point
-      objectReference: {fileID: 0}
-    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
-        type: 3}
-      propertyPath: m_TagString
-      value: Checkpoint
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0677b41d61d84003b261d7e03208f5b, type: 3}
@@ -6999,6 +7003,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1630741802}
     m_Modifications:
+    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
+        type: 3}
+      propertyPath: m_Name
+      value: Check Point (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
+        type: 3}
+      propertyPath: m_TagString
+      value: Checkpoint
+      objectReference: {fileID: 0}
     - target: {fileID: 8416714103723728096, guid: a0677b41d61d84003b261d7e03208f5b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7053,16 +7067,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
-        type: 3}
-      propertyPath: m_Name
-      value: Check Point (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
-        type: 3}
-      propertyPath: m_TagString
-      value: Checkpoint
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0677b41d61d84003b261d7e03208f5b, type: 3}
@@ -7370,6 +7374,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1630741802}
     m_Modifications:
+    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
+        type: 3}
+      propertyPath: m_Name
+      value: Check Point (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 8416714103723728096, guid: a0677b41d61d84003b261d7e03208f5b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7424,11 +7433,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8416714103723728098, guid: a0677b41d61d84003b261d7e03208f5b,
-        type: 3}
-      propertyPath: m_Name
-      value: Check Point (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0677b41d61d84003b261d7e03208f5b, type: 3}

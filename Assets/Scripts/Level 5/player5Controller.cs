@@ -83,7 +83,7 @@ public class player5Controller : MonoBehaviour
             player5_Anim.SetBool("Shot", shotClicked);
           
         }
-        if (transform.position.x >= 125 && semiboss.activeSelf)
+        if (transform.position.x >= 125 && semiboss.activeSelf && transform.position.x <= 146)
         {
             WallLeft.SetActive(true);
             WallRight.SetActive(true);
