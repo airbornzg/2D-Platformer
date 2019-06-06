@@ -37,8 +37,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] AudioSource jumpAudio;
     public AudioSource damageAudio;
-
-
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -56,10 +55,9 @@ public class PlayerController : MonoBehaviour
 
         canMove = true;
     }
-
     // Update is called once per frame
     void Update()
-    {
+    { 
         if (pushedBackTimeCounter <= 0 && canMove)
         {
             PlayerMovement();

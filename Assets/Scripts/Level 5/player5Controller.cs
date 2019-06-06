@@ -128,8 +128,7 @@ public class player5Controller : MonoBehaviour
 
                 yield return new WaitForSeconds(0.1f);
             }
-       
-        
+        player5_render.enabled = true;
     }
     void FixedUpdate()
     {
