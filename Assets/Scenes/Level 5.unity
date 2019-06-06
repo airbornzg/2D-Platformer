@@ -6055,7 +6055,7 @@ PrefabInstance:
     - target: {fileID: 4435996550537179358, guid: e2d03eaa35ef62c4988f84b11d3abeb0,
         type: 3}
       propertyPath: bossHealth
-      value: 6000
+      value: 3000
       objectReference: {fileID: 0}
     - target: {fileID: 4435996551868017757, guid: e2d03eaa35ef62c4988f84b11d3abeb0,
         type: 3}
@@ -6303,7 +6303,7 @@ PrefabInstance:
     - target: {fileID: 6592306974163883488, guid: a9d6d5a282a93c34b856ea09b072f651,
         type: 3}
       propertyPath: bossHealth
-      value: 4000
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 6592306973974863070, guid: a9d6d5a282a93c34b856ea09b072f651,
         type: 3}
